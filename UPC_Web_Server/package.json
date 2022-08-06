@@ -1,0 +1,16 @@
+{
+  "name": "nodejs-upc-web-server",
+  "version": "1.0.0",
+  "description": "nodejs UPC Web Server",
+  "author": "Hein Htet <heinhtet@s.okayama-u.ac.jp>",
+  "license": "OKAYAMA",
+  "main": "server.js",
+  "keywords": [
+    "nodejs",
+    "javascript",
+    "shell"
+  ],
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}

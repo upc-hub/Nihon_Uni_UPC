@@ -1,0 +1,57 @@
+{
+	"master":[
+		{
+			"IP_address":"172.28.235.18",
+			"port":2000,
+			"port_periodic":2002
+		}
+	],
+	"PC5":[
+		{
+			"IP_address":"172.28.235.225",
+			"port":1600
+		}
+	],
+	"worker":[
+		{
+			"worker name":"PC5",
+			"number of thread":4
+		}
+	],
+	"Thread-1":[
+		{
+			"Docker ID-1":"5f8d4e838c99",
+			"Podman ID-1":"v8.1"
+		}
+	],
+	"Thread-2":[
+		{
+			"Docker ID-2":"9f36a6a5f11d",
+			"Podman ID-2":"v8.2"
+		}
+	],
+	"Thread-3":[
+		{
+			"Docker ID-3":"41dc4b72acfe",
+			"Podman ID-3":"v8.3"
+		}
+	],
+	"Thread-4":[
+		{
+			"Docker ID-4":"775219d6a20f",
+			"Podman ID-4":"v8.4"
+		}
+	],
+	"Thread-5":[
+		{
+			"Docker ID-5":"527ddfc7b7de",
+			"Podman ID-5":"v8.5"
+		}
+	],
+	"Thread-6":[
+		{
+			"Docker ID-6":"9775cebc54e8",
+			"Podman ID-6":"v8.6"
+		}
+	]
+}

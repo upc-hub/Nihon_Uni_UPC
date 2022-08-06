@@ -1,0 +1,1754 @@
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v2.5.3)
+
+2021-09-30 19:36:48.677  INFO 18550 --- [           main] c.s.u.scheduling.SchedulingApplication   : Starting SchedulingApplication v0.0.1-SNAPSHOT using Java 13.0.2 on HeinHtet-PC with PID 18550 (/home/heinhtet/Desktop/UPC_APLAS/scheduling-0.0.1-SNAPSHOT.jar started by root in /home/heinhtet/Desktop/UPC_APLAS)
+2021-09-30 19:36:48.680  INFO 18550 --- [           main] c.s.u.scheduling.SchedulingApplication   : No active profile set, falling back to default profiles: default
+2021-09-30 19:36:49.863  INFO 18550 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9000 (http)
+2021-09-30 19:36:49.881  INFO 18550 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-09-30 19:36:49.882  INFO 18550 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.50]
+2021-09-30 19:36:49.939  INFO 18550 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-09-30 19:36:49.939  INFO 18550 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1182 ms
+2021-09-30 19:36:50.352  WARN 18550 --- [           main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 9000 is already in use
+2021-09-30 19:36:50.355  INFO 18550 --- [           main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2021-09-30 19:36:50.368  INFO 18550 --- [           main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-09-30 19:36:50.381 ERROR 18550 --- [           main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 9000 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 9000 or configure this application to listen on another port.
+
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v2.5.3)
+
+2021-09-30 19:37:12.757  INFO 18776 --- [           main] c.s.u.scheduling.SchedulingApplication   : Starting SchedulingApplication v0.0.1-SNAPSHOT using Java 13.0.2 on HeinHtet-PC with PID 18776 (/home/heinhtet/Desktop/UPC_APLAS/scheduling-0.0.1-SNAPSHOT.jar started by root in /home/heinhtet/Desktop/UPC_APLAS)
+2021-09-30 19:37:12.760  INFO 18776 --- [           main] c.s.u.scheduling.SchedulingApplication   : No active profile set, falling back to default profiles: default
+2021-09-30 19:37:13.737  INFO 18776 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9000 (http)
+2021-09-30 19:37:13.748  INFO 18776 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-09-30 19:37:13.748  INFO 18776 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.50]
+2021-09-30 19:37:13.801  INFO 18776 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-09-30 19:37:13.801  INFO 18776 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 985 ms
+2021-09-30 19:37:14.166  WARN 18776 --- [           main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 9000 is already in use
+2021-09-30 19:37:14.169  INFO 18776 --- [           main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2021-09-30 19:37:14.180  INFO 18776 --- [           main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-09-30 19:37:14.193 ERROR 18776 --- [           main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 9000 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 9000 or configure this application to listen on another port.
+
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v2.5.3)
+
+2021-09-30 20:49:04.595  INFO 12393 --- [           main] c.s.u.scheduling.SchedulingApplication   : Starting SchedulingApplication v0.0.1-SNAPSHOT using Java 13.0.2 on HeinHtet-PC with PID 12393 (/home/heinhtet/Desktop/UPC_APLAS/scheduling-0.0.1-SNAPSHOT.jar started by root in /home/heinhtet/Desktop/UPC_APLAS)
+2021-09-30 20:49:04.602  INFO 12393 --- [           main] c.s.u.scheduling.SchedulingApplication   : No active profile set, falling back to default profiles: default
+2021-09-30 20:49:05.713  INFO 12393 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9000 (http)
+2021-09-30 20:49:05.725  INFO 12393 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-09-30 20:49:05.725  INFO 12393 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.50]
+2021-09-30 20:49:05.782  INFO 12393 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-09-30 20:49:05.782  INFO 12393 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1117 ms
+2021-09-30 20:49:06.195  WARN 12393 --- [           main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 9000 is already in use
+2021-09-30 20:49:06.198  INFO 12393 --- [           main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2021-09-30 20:49:06.212  INFO 12393 --- [           main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-09-30 20:49:06.225 ERROR 12393 --- [           main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 9000 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 9000 or configure this application to listen on another port.
+
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v2.5.3)
+
+2021-09-30 20:50:21.652  INFO 12855 --- [           main] c.s.u.scheduling.SchedulingApplication   : Starting SchedulingApplication v0.0.1-SNAPSHOT using Java 13.0.2 on HeinHtet-PC with PID 12855 (/home/heinhtet/Desktop/UPC_APLAS/scheduling-0.0.1-SNAPSHOT.jar started by root in /home/heinhtet/Desktop/UPC_APLAS)
+2021-09-30 20:50:21.655  INFO 12855 --- [           main] c.s.u.scheduling.SchedulingApplication   : No active profile set, falling back to default profiles: default
+2021-09-30 20:50:22.719  INFO 12855 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9000 (http)
+2021-09-30 20:50:22.742  INFO 12855 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-09-30 20:50:22.743  INFO 12855 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.50]
+2021-09-30 20:50:22.794  INFO 12855 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-09-30 20:50:22.795  INFO 12855 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1076 ms
+2021-09-30 20:50:23.177  WARN 12855 --- [           main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 9000 is already in use
+2021-09-30 20:50:23.179  INFO 12855 --- [           main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2021-09-30 20:50:23.192  INFO 12855 --- [           main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-09-30 20:50:23.205 ERROR 12855 --- [           main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 9000 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 9000 or configure this application to listen on another port.
+
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v2.5.3)
+
+2021-09-30 21:02:45.593  INFO 17111 --- [           main] c.s.u.scheduling.SchedulingApplication   : Starting SchedulingApplication v0.0.1-SNAPSHOT using Java 13.0.2 on HeinHtet-PC with PID 17111 (/home/heinhtet/Desktop/UPC_APLAS/scheduling-0.0.1-SNAPSHOT.jar started by root in /home/heinhtet/Desktop/UPC_APLAS)
+2021-09-30 21:02:45.595  INFO 17111 --- [           main] c.s.u.scheduling.SchedulingApplication   : No active profile set, falling back to default profiles: default
+2021-09-30 21:02:46.668  INFO 17111 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9000 (http)
+2021-09-30 21:02:46.681  INFO 17111 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-09-30 21:02:46.681  INFO 17111 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.50]
+2021-09-30 21:02:46.736  INFO 17111 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-09-30 21:02:46.736  INFO 17111 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1041 ms
+2021-09-30 21:02:47.112  WARN 17111 --- [           main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 9000 is already in use
+2021-09-30 21:02:47.115  INFO 17111 --- [           main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2021-09-30 21:02:47.130  INFO 17111 --- [           main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-09-30 21:02:47.150 ERROR 17111 --- [           main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 9000 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 9000 or configure this application to listen on another port.
+
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v2.5.3)
+
+2021-09-30 21:06:49.503  INFO 18516 --- [           main] c.s.u.scheduling.SchedulingApplication   : Starting SchedulingApplication v0.0.1-SNAPSHOT using Java 13.0.2 on HeinHtet-PC with PID 18516 (/home/heinhtet/Desktop/UPC_APLAS/scheduling-0.0.1-SNAPSHOT.jar started by root in /home/heinhtet/Desktop/UPC_APLAS)
+2021-09-30 21:06:49.506  INFO 18516 --- [           main] c.s.u.scheduling.SchedulingApplication   : No active profile set, falling back to default profiles: default
+2021-09-30 21:06:50.538  INFO 18516 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9000 (http)
+2021-09-30 21:06:50.565  INFO 18516 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-09-30 21:06:50.565  INFO 18516 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.50]
+2021-09-30 21:06:50.618  INFO 18516 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-09-30 21:06:50.619  INFO 18516 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1053 ms
+2021-09-30 21:06:50.993  WARN 18516 --- [           main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 9000 is already in use
+2021-09-30 21:06:50.996  INFO 18516 --- [           main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2021-09-30 21:06:51.010  INFO 18516 --- [           main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-09-30 21:06:51.023 ERROR 18516 --- [           main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 9000 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 9000 or configure this application to listen on another port.
+
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v2.5.3)
+
+2021-09-30 21:09:58.462  INFO 19689 --- [           main] c.s.u.scheduling.SchedulingApplication   : Starting SchedulingApplication v0.0.1-SNAPSHOT using Java 13.0.2 on HeinHtet-PC with PID 19689 (/home/heinhtet/Desktop/UPC_APLAS/scheduling-0.0.1-SNAPSHOT.jar started by root in /home/heinhtet/Desktop/UPC_APLAS)
+2021-09-30 21:09:58.465  INFO 19689 --- [           main] c.s.u.scheduling.SchedulingApplication   : No active profile set, falling back to default profiles: default
+2021-09-30 21:09:59.530  INFO 19689 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9000 (http)
+2021-09-30 21:09:59.542  INFO 19689 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-09-30 21:09:59.542  INFO 19689 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.50]
+2021-09-30 21:09:59.598  INFO 19689 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-09-30 21:09:59.598  INFO 19689 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1034 ms
+2021-09-30 21:09:59.981  WARN 19689 --- [           main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 9000 is already in use
+2021-09-30 21:09:59.984  INFO 19689 --- [           main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2021-09-30 21:09:59.997  INFO 19689 --- [           main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-09-30 21:10:00.010 ERROR 19689 --- [           main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 9000 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 9000 or configure this application to listen on another port.
+
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v2.5.3)
+
+2021-09-30 21:11:57.661  INFO 20378 --- [           main] c.s.u.scheduling.SchedulingApplication   : Starting SchedulingApplication v0.0.1-SNAPSHOT using Java 13.0.2 on HeinHtet-PC with PID 20378 (/home/heinhtet/Desktop/UPC_APLAS/scheduling-0.0.1-SNAPSHOT.jar started by root in /home/heinhtet/Desktop/UPC_APLAS)
+2021-09-30 21:11:57.665  INFO 20378 --- [           main] c.s.u.scheduling.SchedulingApplication   : No active profile set, falling back to default profiles: default
+2021-09-30 21:11:58.701  INFO 20378 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9000 (http)
+2021-09-30 21:11:58.713  INFO 20378 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-09-30 21:11:58.724  INFO 20378 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.50]
+2021-09-30 21:11:58.779  INFO 20378 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-09-30 21:11:58.779  INFO 20378 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1043 ms
+2021-09-30 21:11:59.150  WARN 20378 --- [           main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 9000 is already in use
+2021-09-30 21:11:59.154  INFO 20378 --- [           main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2021-09-30 21:11:59.168  INFO 20378 --- [           main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-09-30 21:11:59.181 ERROR 20378 --- [           main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 9000 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 9000 or configure this application to listen on another port.
+
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v2.5.3)
+
+2021-09-30 21:16:04.009  INFO 21835 --- [           main] c.s.u.scheduling.SchedulingApplication   : Starting SchedulingApplication v0.0.1-SNAPSHOT using Java 13.0.2 on HeinHtet-PC with PID 21835 (/home/heinhtet/Desktop/UPC_APLAS/scheduling-0.0.1-SNAPSHOT.jar started by root in /home/heinhtet/Desktop/UPC_APLAS)
+2021-09-30 21:16:04.011  INFO 21835 --- [           main] c.s.u.scheduling.SchedulingApplication   : No active profile set, falling back to default profiles: default
+2021-09-30 21:16:05.025  INFO 21835 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9000 (http)
+2021-09-30 21:16:05.037  INFO 21835 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-09-30 21:16:05.037  INFO 21835 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.50]
+2021-09-30 21:16:05.093  INFO 21835 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-09-30 21:16:05.093  INFO 21835 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1027 ms
+2021-09-30 21:16:05.479  WARN 21835 --- [           main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 9000 is already in use
+2021-09-30 21:16:05.482  INFO 21835 --- [           main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2021-09-30 21:16:05.495  INFO 21835 --- [           main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-09-30 21:16:05.508 ERROR 21835 --- [           main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 9000 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 9000 or configure this application to listen on another port.
+
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v2.5.3)
+
+2021-09-30 21:17:58.637  INFO 22572 --- [           main] c.s.u.scheduling.SchedulingApplication   : Starting SchedulingApplication v0.0.1-SNAPSHOT using Java 13.0.2 on HeinHtet-PC with PID 22572 (/home/heinhtet/Desktop/UPC_APLAS/scheduling-0.0.1-SNAPSHOT.jar started by root in /home/heinhtet/Desktop/UPC_APLAS)
+2021-09-30 21:17:58.642  INFO 22572 --- [           main] c.s.u.scheduling.SchedulingApplication   : No active profile set, falling back to default profiles: default
+2021-09-30 21:17:59.692  INFO 22572 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9000 (http)
+2021-09-30 21:17:59.704  INFO 22572 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-09-30 21:17:59.704  INFO 22572 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.50]
+2021-09-30 21:17:59.760  INFO 22572 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-09-30 21:17:59.760  INFO 22572 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1016 ms
+2021-09-30 21:18:00.131  WARN 22572 --- [           main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 9000 is already in use
+2021-09-30 21:18:00.134  INFO 22572 --- [           main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2021-09-30 21:18:00.148  INFO 22572 --- [           main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-09-30 21:18:00.161 ERROR 22572 --- [           main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 9000 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 9000 or configure this application to listen on another port.
+
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v2.5.3)
+
+2021-09-30 22:14:56.368  INFO 10523 --- [           main] c.s.u.scheduling.SchedulingApplication   : Starting SchedulingApplication v0.0.1-SNAPSHOT using Java 13.0.2 on HeinHtet-PC with PID 10523 (/home/heinhtet/Desktop/UPC_APLAS/scheduling-0.0.1-SNAPSHOT.jar started by root in /home/heinhtet/Desktop/UPC_APLAS)
+2021-09-30 22:14:56.372  INFO 10523 --- [           main] c.s.u.scheduling.SchedulingApplication   : No active profile set, falling back to default profiles: default
+2021-09-30 22:14:57.391  INFO 10523 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9000 (http)
+2021-09-30 22:14:57.403  INFO 10523 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-09-30 22:14:57.403  INFO 10523 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.50]
+2021-09-30 22:14:57.463  INFO 10523 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-09-30 22:14:57.463  INFO 10523 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1035 ms
+2021-09-30 22:14:57.840  WARN 10523 --- [           main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 9000 is already in use
+2021-09-30 22:14:57.843  INFO 10523 --- [           main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2021-09-30 22:14:57.862  INFO 10523 --- [           main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-09-30 22:14:57.874 ERROR 10523 --- [           main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 9000 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 9000 or configure this application to listen on another port.
+
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v2.5.3)
+
+2021-09-30 22:16:55.068  INFO 11221 --- [           main] c.s.u.scheduling.SchedulingApplication   : Starting SchedulingApplication v0.0.1-SNAPSHOT using Java 13.0.2 on HeinHtet-PC with PID 11221 (/home/heinhtet/Desktop/UPC_APLAS/scheduling-0.0.1-SNAPSHOT.jar started by root in /home/heinhtet/Desktop/UPC_APLAS)
+2021-09-30 22:16:55.071  INFO 11221 --- [           main] c.s.u.scheduling.SchedulingApplication   : No active profile set, falling back to default profiles: default
+2021-09-30 22:16:56.122  INFO 11221 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9000 (http)
+2021-09-30 22:16:56.135  INFO 11221 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-09-30 22:16:56.135  INFO 11221 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.50]
+2021-09-30 22:16:56.189  INFO 11221 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-09-30 22:16:56.189  INFO 11221 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1050 ms
+2021-09-30 22:16:56.574  WARN 11221 --- [           main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 9000 is already in use
+2021-09-30 22:16:56.578  INFO 11221 --- [           main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2021-09-30 22:16:56.591  INFO 11221 --- [           main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-09-30 22:16:56.603 ERROR 11221 --- [           main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 9000 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 9000 or configure this application to listen on another port.
+
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v2.5.3)
+
+2021-09-30 22:18:12.287  INFO 11710 --- [           main] c.s.u.scheduling.SchedulingApplication   : Starting SchedulingApplication v0.0.1-SNAPSHOT using Java 13.0.2 on HeinHtet-PC with PID 11710 (/home/heinhtet/Desktop/UPC_APLAS/scheduling-0.0.1-SNAPSHOT.jar started by root in /home/heinhtet/Desktop/UPC_APLAS)
+2021-09-30 22:18:12.289  INFO 11710 --- [           main] c.s.u.scheduling.SchedulingApplication   : No active profile set, falling back to default profiles: default
+2021-09-30 22:18:13.376  INFO 11710 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9000 (http)
+2021-09-30 22:18:13.387  INFO 11710 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-09-30 22:18:13.387  INFO 11710 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.50]
+2021-09-30 22:18:13.438  INFO 11710 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-09-30 22:18:13.439  INFO 11710 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1050 ms
+2021-09-30 22:18:13.818  WARN 11710 --- [           main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 9000 is already in use
+2021-09-30 22:18:13.821  INFO 11710 --- [           main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2021-09-30 22:18:13.834  INFO 11710 --- [           main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-09-30 22:18:13.847 ERROR 11710 --- [           main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 9000 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 9000 or configure this application to listen on another port.
+
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v2.5.3)
+
+2021-09-30 22:19:52.969  INFO 12302 --- [           main] c.s.u.scheduling.SchedulingApplication   : Starting SchedulingApplication v0.0.1-SNAPSHOT using Java 13.0.2 on HeinHtet-PC with PID 12302 (/home/heinhtet/Desktop/UPC_APLAS/scheduling-0.0.1-SNAPSHOT.jar started by root in /home/heinhtet/Desktop/UPC_APLAS)
+2021-09-30 22:19:52.971  INFO 12302 --- [           main] c.s.u.scheduling.SchedulingApplication   : No active profile set, falling back to default profiles: default
+2021-09-30 22:19:54.011  INFO 12302 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9000 (http)
+2021-09-30 22:19:54.023  INFO 12302 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-09-30 22:19:54.023  INFO 12302 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.50]
+2021-09-30 22:19:54.078  INFO 12302 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-09-30 22:19:54.079  INFO 12302 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1014 ms
+2021-09-30 22:19:54.453  WARN 12302 --- [           main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 9000 is already in use
+2021-09-30 22:19:54.457  INFO 12302 --- [           main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2021-09-30 22:19:54.469  INFO 12302 --- [           main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-09-30 22:19:54.481 ERROR 12302 --- [           main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 9000 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 9000 or configure this application to listen on another port.
+
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v2.5.3)
+
+2021-09-30 22:21:58.922  INFO 13004 --- [           main] c.s.u.scheduling.SchedulingApplication   : Starting SchedulingApplication v0.0.1-SNAPSHOT using Java 13.0.2 on HeinHtet-PC with PID 13004 (/home/heinhtet/Desktop/UPC_APLAS/scheduling-0.0.1-SNAPSHOT.jar started by root in /home/heinhtet/Desktop/UPC_APLAS)
+2021-09-30 22:21:58.925  INFO 13004 --- [           main] c.s.u.scheduling.SchedulingApplication   : No active profile set, falling back to default profiles: default
+2021-09-30 22:21:59.960  INFO 13004 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9000 (http)
+2021-09-30 22:21:59.984  INFO 13004 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-09-30 22:21:59.984  INFO 13004 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.50]
+2021-09-30 22:22:00.039  INFO 13004 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-09-30 22:22:00.040  INFO 13004 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1046 ms
+2021-09-30 22:22:00.417  WARN 13004 --- [           main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 9000 is already in use
+2021-09-30 22:22:00.421  INFO 13004 --- [           main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2021-09-30 22:22:00.433  INFO 13004 --- [           main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-09-30 22:22:00.446 ERROR 13004 --- [           main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 9000 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 9000 or configure this application to listen on another port.
+
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v2.5.3)
+
+2021-10-03 17:11:01.725  INFO 10422 --- [           main] c.s.u.scheduling.SchedulingApplication   : Starting SchedulingApplication v0.0.1-SNAPSHOT using Java 13.0.2 on HeinHtet-PC with PID 10422 (/home/heinhtet/Desktop/UPC_APLAS/scheduling-0.0.1-SNAPSHOT.jar started by root in /home/heinhtet/Desktop/UPC_APLAS)
+2021-10-03 17:11:01.728  INFO 10422 --- [           main] c.s.u.scheduling.SchedulingApplication   : No active profile set, falling back to default profiles: default
+2021-10-03 17:11:02.875  INFO 10422 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9000 (http)
+2021-10-03 17:11:02.899  INFO 10422 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-10-03 17:11:02.899  INFO 10422 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.50]
+2021-10-03 17:11:02.962  INFO 10422 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-10-03 17:11:02.963  INFO 10422 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1150 ms
+2021-10-03 17:11:03.351  WARN 10422 --- [           main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 9000 is already in use
+2021-10-03 17:11:03.355  INFO 10422 --- [           main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2021-10-03 17:11:03.368  INFO 10422 --- [           main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-10-03 17:11:03.390 ERROR 10422 --- [           main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 9000 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 9000 or configure this application to listen on another port.
+
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v2.5.3)
+
+2021-10-03 18:48:09.808  INFO 6205 --- [           main] c.s.u.scheduling.SchedulingApplication   : Starting SchedulingApplication v0.0.1-SNAPSHOT using Java 13.0.2 on HeinHtet-PC with PID 6205 (/home/heinhtet/Desktop/UPC_APLAS/scheduling-0.0.1-SNAPSHOT.jar started by root in /home/heinhtet/Desktop/UPC_APLAS)
+2021-10-03 18:48:09.811  INFO 6205 --- [           main] c.s.u.scheduling.SchedulingApplication   : No active profile set, falling back to default profiles: default
+2021-10-03 18:48:10.964  INFO 6205 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9000 (http)
+2021-10-03 18:48:10.978  INFO 6205 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-10-03 18:48:10.978  INFO 6205 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.50]
+2021-10-03 18:48:11.043  INFO 6205 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-10-03 18:48:11.043  INFO 6205 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1156 ms
+2021-10-03 18:48:11.471  INFO 6205 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9000 (http) with context path ''
+2021-10-03 18:48:11.482  INFO 6205 --- [           main] c.s.u.scheduling.SchedulingApplication   : Started SchedulingApplication in 2.246 seconds (JVM running for 2.772)
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v2.5.3)
+
+2021-10-03 18:55:20.390  INFO 8710 --- [           main] c.s.u.scheduling.SchedulingApplication   : Starting SchedulingApplication v0.0.1-SNAPSHOT using Java 13.0.2 on HeinHtet-PC with PID 8710 (/home/heinhtet/Desktop/UPC_APLAS/scheduling-0.0.1-SNAPSHOT.jar started by root in /home/heinhtet/Desktop/UPC_APLAS)
+2021-10-03 18:55:20.393  INFO 8710 --- [           main] c.s.u.scheduling.SchedulingApplication   : No active profile set, falling back to default profiles: default
+2021-10-03 18:55:21.395  INFO 8710 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9000 (http)
+2021-10-03 18:55:21.420  INFO 8710 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-10-03 18:55:21.421  INFO 8710 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.50]
+2021-10-03 18:55:21.475  INFO 8710 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-10-03 18:55:21.476  INFO 8710 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1027 ms
+2021-10-03 18:55:21.856  INFO 8710 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9000 (http) with context path ''
+2021-10-03 18:55:21.867  INFO 8710 --- [           main] c.s.u.scheduling.SchedulingApplication   : Started SchedulingApplication in 1.958 seconds (JVM running for 2.376)
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v2.5.3)
+
+2021-10-03 18:56:03.556  INFO 8999 --- [           main] c.s.u.scheduling.SchedulingApplication   : Starting SchedulingApplication v0.0.1-SNAPSHOT using Java 13.0.2 on HeinHtet-PC with PID 8999 (/home/heinhtet/Desktop/UPC_APLAS/scheduling-0.0.1-SNAPSHOT.jar started by root in /home/heinhtet/Desktop/UPC_APLAS)
+2021-10-03 18:56:03.561  INFO 8999 --- [           main] c.s.u.scheduling.SchedulingApplication   : No active profile set, falling back to default profiles: default
+2021-10-03 18:56:04.563  INFO 8999 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9000 (http)
+2021-10-03 18:56:04.585  INFO 8999 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-10-03 18:56:04.585  INFO 8999 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.50]
+2021-10-03 18:56:04.641  INFO 8999 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-10-03 18:56:04.641  INFO 8999 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1018 ms
+2021-10-03 18:56:05.035  INFO 8999 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9000 (http) with context path ''
+2021-10-03 18:56:05.046  INFO 8999 --- [           main] c.s.u.scheduling.SchedulingApplication   : Started SchedulingApplication in 1.97 seconds (JVM running for 2.388)
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v2.5.3)
+
+2021-10-03 19:01:10.540  INFO 11536 --- [           main] c.s.u.scheduling.SchedulingApplication   : Starting SchedulingApplication v0.0.1-SNAPSHOT using Java 13.0.2 on HeinHtet-PC with PID 11536 (/home/heinhtet/Desktop/UPC_APLAS/scheduling-0.0.1-SNAPSHOT.jar started by root in /home/heinhtet/Desktop/UPC_APLAS)
+2021-10-03 19:01:10.545  INFO 11536 --- [           main] c.s.u.scheduling.SchedulingApplication   : No active profile set, falling back to default profiles: default
+2021-10-03 19:01:11.860  INFO 11536 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9000 (http)
+2021-10-03 19:01:11.884  INFO 11536 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-10-03 19:01:11.884  INFO 11536 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.50]
+2021-10-03 19:01:11.952  INFO 11536 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-10-03 19:01:11.952  INFO 11536 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1311 ms
+2021-10-03 19:01:12.532  INFO 11536 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9000 (http) with context path ''
+2021-10-03 19:01:12.545  INFO 11536 --- [           main] c.s.u.scheduling.SchedulingApplication   : Started SchedulingApplication in 2.492 seconds (JVM running for 2.919)
+2021-10-03 19:01:12.782  INFO 11536 --- [nio-9000-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-10-03 19:01:12.783  INFO 11536 --- [nio-9000-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-10-03 19:01:12.784  INFO 11536 --- [nio-9000-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-10-03 19:01:12.888  INFO 11536 --- [nio-9000-exec-2] c.s.u.s.s.AplasSchedulingServiceImpl     : The amount is zero.
+2021-10-03 19:01:12.888  INFO 11536 --- [nio-9000-exec-2] c.s.u.s.s.AplasSchedulingServiceImpl     : The amount is zero.
+2021-10-03 19:01:12.888  INFO 11536 --- [nio-9000-exec-2] c.s.u.s.s.AplasSchedulingServiceImpl     : The amount is zero.
+2021-10-03 19:01:12.888  INFO 11536 --- [nio-9000-exec-2] c.s.u.s.s.AplasSchedulingServiceImpl     : The amount is zero.
+2021-10-03 19:01:12.888  INFO 11536 --- [nio-9000-exec-2] c.s.u.s.s.AplasSchedulingServiceImpl     : The amount is zero.
+2021-10-03 19:01:12.891  INFO 11536 --- [nio-9000-exec-2] c.s.u.s.s.AplasSchedulingServiceImpl     : S-1 PC-6 Amount: 18
+2021-10-03 19:01:12.891  INFO 11536 --- [nio-9000-exec-2] c.s.u.s.s.AplasSchedulingServiceImpl     : S-1 PC-5 Amount: 12
+2021-10-03 19:01:12.891  INFO 11536 --- [nio-9000-exec-2] c.s.u.s.s.AplasSchedulingServiceImpl     : S-1 PC-4 Amount: 8
+2021-10-03 19:01:12.891  INFO 11536 --- [nio-9000-exec-2] c.s.u.s.s.AplasSchedulingServiceImpl     : S-1 PC-3 Amount: 3
+2021-10-03 19:01:12.891  INFO 11536 --- [nio-9000-exec-2] c.s.u.s.s.AplasSchedulingServiceImpl     : S-1 PC-6 Turns: 3
+2021-10-03 19:01:12.891  INFO 11536 --- [nio-9000-exec-2] c.s.u.s.s.AplasSchedulingServiceImpl     : S-1 PC-5 Turns: 3
+2021-10-03 19:01:12.891  INFO 11536 --- [nio-9000-exec-2] c.s.u.s.s.AplasSchedulingServiceImpl     : S-1 PC-4 Turns: 2
+2021-10-03 19:01:12.891  INFO 11536 --- [nio-9000-exec-2] c.s.u.s.s.AplasSchedulingServiceImpl     : S-1 PC-3 Turns: 3
+2021-10-03 19:01:12.891  INFO 11536 --- [nio-9000-exec-2] c.s.u.s.s.AplasSchedulingServiceImpl     : S-1 PC-6 Processing Time: 132 Seconds
+2021-10-03 19:01:12.891  INFO 11536 --- [nio-9000-exec-2] c.s.u.s.s.AplasSchedulingServiceImpl     : S-1 PC-5 Processing Time: 138 Seconds
+2021-10-03 19:01:12.891  INFO 11536 --- [nio-9000-exec-2] c.s.u.s.s.AplasSchedulingServiceImpl     : S-1 PC-4 Processing Time: 126 Seconds
+2021-10-03 19:01:12.892  INFO 11536 --- [nio-9000-exec-2] c.s.u.s.s.AplasSchedulingServiceImpl     : S-1 PC-3 Processing Time: 129 Seconds
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v2.5.3)
+
+2021-10-03 19:02:59.510  INFO 12551 --- [           main] c.s.u.scheduling.SchedulingApplication   : Starting SchedulingApplication v0.0.1-SNAPSHOT using Java 13.0.2 on HeinHtet-PC with PID 12551 (/home/heinhtet/Desktop/UPC_APLAS/scheduling-0.0.1-SNAPSHOT.jar started by root in /home/heinhtet/Desktop/UPC_APLAS)
+2021-10-03 19:02:59.514  INFO 12551 --- [           main] c.s.u.scheduling.SchedulingApplication   : No active profile set, falling back to default profiles: default
+2021-10-03 19:03:00.692  INFO 12551 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9000 (http)
+2021-10-03 19:03:00.704  INFO 12551 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-10-03 19:03:00.705  INFO 12551 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.50]
+2021-10-03 19:03:00.774  INFO 12551 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-10-03 19:03:00.774  INFO 12551 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1181 ms
+2021-10-03 19:03:01.212  INFO 12551 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9000 (http) with context path ''
+2021-10-03 19:03:01.226  INFO 12551 --- [           main] c.s.u.scheduling.SchedulingApplication   : Started SchedulingApplication in 2.28 seconds (JVM running for 2.708)
+2021-10-03 19:03:02.893  INFO 12551 --- [nio-9000-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-10-03 19:03:02.894  INFO 12551 --- [nio-9000-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-10-03 19:03:02.895  INFO 12551 --- [nio-9000-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-10-03 19:03:02.988  INFO 12551 --- [nio-9000-exec-2] c.s.u.s.s.AplasSchedulingServiceImpl     : The amount is zero.
+2021-10-03 19:03:02.989  INFO 12551 --- [nio-9000-exec-2] c.s.u.s.s.AplasSchedulingServiceImpl     : The amount is zero.
+2021-10-03 19:03:02.989  INFO 12551 --- [nio-9000-exec-2] c.s.u.s.s.AplasSchedulingServiceImpl     : The amount is zero.
+2021-10-03 19:03:02.989  INFO 12551 --- [nio-9000-exec-2] c.s.u.s.s.AplasSchedulingServiceImpl     : The amount is zero.
+2021-10-03 19:03:02.989  INFO 12551 --- [nio-9000-exec-2] c.s.u.s.s.AplasSchedulingServiceImpl     : The amount is zero.
+2021-10-03 19:03:02.990  INFO 12551 --- [nio-9000-exec-2] c.s.u.s.s.AplasSchedulingServiceImpl     : S-1 PC-6 Amount: 18
+2021-10-03 19:03:02.991  INFO 12551 --- [nio-9000-exec-2] c.s.u.s.s.AplasSchedulingServiceImpl     : S-1 PC-5 Amount: 12
+2021-10-03 19:03:02.991  INFO 12551 --- [nio-9000-exec-2] c.s.u.s.s.AplasSchedulingServiceImpl     : S-1 PC-4 Amount: 8
+2021-10-03 19:03:02.991  INFO 12551 --- [nio-9000-exec-2] c.s.u.s.s.AplasSchedulingServiceImpl     : S-1 PC-3 Amount: 3
+2021-10-03 19:03:02.991  INFO 12551 --- [nio-9000-exec-2] c.s.u.s.s.AplasSchedulingServiceImpl     : S-1 PC-6 Turns: 3
+2021-10-03 19:03:02.991  INFO 12551 --- [nio-9000-exec-2] c.s.u.s.s.AplasSchedulingServiceImpl     : S-1 PC-5 Turns: 3
+2021-10-03 19:03:02.991  INFO 12551 --- [nio-9000-exec-2] c.s.u.s.s.AplasSchedulingServiceImpl     : S-1 PC-4 Turns: 2
+2021-10-03 19:03:02.991  INFO 12551 --- [nio-9000-exec-2] c.s.u.s.s.AplasSchedulingServiceImpl     : S-1 PC-3 Turns: 3
+2021-10-03 19:03:02.991  INFO 12551 --- [nio-9000-exec-2] c.s.u.s.s.AplasSchedulingServiceImpl     : S-1 PC-6 Processing Time: 132 Seconds
+2021-10-03 19:03:02.991  INFO 12551 --- [nio-9000-exec-2] c.s.u.s.s.AplasSchedulingServiceImpl     : S-1 PC-5 Processing Time: 138 Seconds
+2021-10-03 19:03:02.991  INFO 12551 --- [nio-9000-exec-2] c.s.u.s.s.AplasSchedulingServiceImpl     : S-1 PC-4 Processing Time: 126 Seconds
+2021-10-03 19:03:02.991  INFO 12551 --- [nio-9000-exec-2] c.s.u.s.s.AplasSchedulingServiceImpl     : S-1 PC-3 Processing Time: 129 Seconds
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v2.5.3)
+
+2021-10-03 19:03:21.133  INFO 12758 --- [           main] c.s.u.scheduling.SchedulingApplication   : Starting SchedulingApplication v0.0.1-SNAPSHOT using Java 13.0.2 on HeinHtet-PC with PID 12758 (/home/heinhtet/Desktop/UPC_APLAS/scheduling-0.0.1-SNAPSHOT.jar started by root in /home/heinhtet/Desktop/UPC_APLAS)
+2021-10-03 19:03:21.138  INFO 12758 --- [           main] c.s.u.scheduling.SchedulingApplication   : No active profile set, falling back to default profiles: default
+2021-10-03 19:03:22.474  INFO 12758 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9000 (http)
+2021-10-03 19:03:22.486  INFO 12758 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-10-03 19:03:22.487  INFO 12758 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.50]
+2021-10-03 19:03:22.540  INFO 12758 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-10-03 19:03:22.540  INFO 12758 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1329 ms
+2021-10-03 19:03:22.947  INFO 12758 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9000 (http) with context path ''
+2021-10-03 19:03:22.964  INFO 12758 --- [           main] c.s.u.scheduling.SchedulingApplication   : Started SchedulingApplication in 2.35 seconds (JVM running for 2.774)
+2021-10-03 19:03:23.234  INFO 12758 --- [nio-9000-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-10-03 19:03:23.235  INFO 12758 --- [nio-9000-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-10-03 19:03:23.236  INFO 12758 --- [nio-9000-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-10-03 19:03:23.334  INFO 12758 --- [nio-9000-exec-2] c.s.u.s.s.AplasSchedulingServiceImpl     : The amount is zero.
+2021-10-03 19:03:23.335  INFO 12758 --- [nio-9000-exec-2] c.s.u.s.s.AplasSchedulingServiceImpl     : The amount is zero.
+2021-10-03 19:03:23.335  INFO 12758 --- [nio-9000-exec-2] c.s.u.s.s.AplasSchedulingServiceImpl     : The amount is zero.
+2021-10-03 19:03:23.335  INFO 12758 --- [nio-9000-exec-2] c.s.u.s.s.AplasSchedulingServiceImpl     : The amount is zero.
+2021-10-03 19:03:23.335  INFO 12758 --- [nio-9000-exec-2] c.s.u.s.s.AplasSchedulingServiceImpl     : The amount is zero.
+2021-10-03 19:03:23.336  INFO 12758 --- [nio-9000-exec-2] c.s.u.s.s.AplasSchedulingServiceImpl     : S-1 PC-6 Amount: 18
+2021-10-03 19:03:23.336  INFO 12758 --- [nio-9000-exec-2] c.s.u.s.s.AplasSchedulingServiceImpl     : S-1 PC-5 Amount: 12
+2021-10-03 19:03:23.336  INFO 12758 --- [nio-9000-exec-2] c.s.u.s.s.AplasSchedulingServiceImpl     : S-1 PC-4 Amount: 8
+2021-10-03 19:03:23.337  INFO 12758 --- [nio-9000-exec-2] c.s.u.s.s.AplasSchedulingServiceImpl     : S-1 PC-3 Amount: 3
+2021-10-03 19:03:23.337  INFO 12758 --- [nio-9000-exec-2] c.s.u.s.s.AplasSchedulingServiceImpl     : S-1 PC-6 Turns: 3
+2021-10-03 19:03:23.337  INFO 12758 --- [nio-9000-exec-2] c.s.u.s.s.AplasSchedulingServiceImpl     : S-1 PC-5 Turns: 3
+2021-10-03 19:03:23.337  INFO 12758 --- [nio-9000-exec-2] c.s.u.s.s.AplasSchedulingServiceImpl     : S-1 PC-4 Turns: 2
+2021-10-03 19:03:23.337  INFO 12758 --- [nio-9000-exec-2] c.s.u.s.s.AplasSchedulingServiceImpl     : S-1 PC-3 Turns: 3
+2021-10-03 19:03:23.337  INFO 12758 --- [nio-9000-exec-2] c.s.u.s.s.AplasSchedulingServiceImpl     : S-1 PC-6 Processing Time: 132 Seconds
+2021-10-03 19:03:23.337  INFO 12758 --- [nio-9000-exec-2] c.s.u.s.s.AplasSchedulingServiceImpl     : S-1 PC-5 Processing Time: 138 Seconds
+2021-10-03 19:03:23.337  INFO 12758 --- [nio-9000-exec-2] c.s.u.s.s.AplasSchedulingServiceImpl     : S-1 PC-4 Processing Time: 126 Seconds
+2021-10-03 19:03:23.337  INFO 12758 --- [nio-9000-exec-2] c.s.u.s.s.AplasSchedulingServiceImpl     : S-1 PC-3 Processing Time: 129 Seconds
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v2.5.3)
+
+2021-10-03 19:43:43.895  INFO 26968 --- [           main] c.s.u.scheduling.SchedulingApplication   : Starting SchedulingApplication v0.0.1-SNAPSHOT using Java 13.0.2 on HeinHtet-PC with PID 26968 (/home/heinhtet/Desktop/UPC_APLAS/scheduling-0.0.1-SNAPSHOT.jar started by root in /home/heinhtet/Desktop/UPC_APLAS)
+2021-10-03 19:43:43.900  INFO 26968 --- [           main] c.s.u.scheduling.SchedulingApplication   : No active profile set, falling back to default profiles: default
+2021-10-03 19:43:44.997  INFO 26968 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9000 (http)
+2021-10-03 19:43:45.027  INFO 26968 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-10-03 19:43:45.027  INFO 26968 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.50]
+2021-10-03 19:43:45.093  INFO 26968 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-10-03 19:43:45.093  INFO 26968 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1126 ms
+2021-10-03 19:43:45.699  INFO 26968 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9000 (http) with context path ''
+2021-10-03 19:43:45.720  INFO 26968 --- [           main] c.s.u.scheduling.SchedulingApplication   : Started SchedulingApplication in 2.294 seconds (JVM running for 2.721)
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v2.5.3)
+
+2021-10-03 19:44:16.189  INFO 27183 --- [           main] c.s.u.scheduling.SchedulingApplication   : Starting SchedulingApplication v0.0.1-SNAPSHOT using Java 13.0.2 on HeinHtet-PC with PID 27183 (/home/heinhtet/Desktop/UPC_APLAS/scheduling-0.0.1-SNAPSHOT.jar started by root in /home/heinhtet/Desktop/UPC_APLAS)
+2021-10-03 19:44:16.194  INFO 27183 --- [           main] c.s.u.scheduling.SchedulingApplication   : No active profile set, falling back to default profiles: default
+2021-10-03 19:44:17.487  INFO 27183 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9000 (http)
+2021-10-03 19:44:17.501  INFO 27183 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-10-03 19:44:17.501  INFO 27183 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.50]
+2021-10-03 19:44:17.590  INFO 27183 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-10-03 19:44:17.590  INFO 27183 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1315 ms
+2021-10-03 19:44:18.114  INFO 27183 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9000 (http) with context path ''
+2021-10-03 19:44:18.128  INFO 27183 --- [           main] c.s.u.scheduling.SchedulingApplication   : Started SchedulingApplication in 2.82 seconds (JVM running for 3.346)
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v2.5.3)
+
+2021-10-03 19:52:17.839  INFO 30143 --- [           main] c.s.u.scheduling.SchedulingApplication   : Starting SchedulingApplication v0.0.1-SNAPSHOT using Java 13.0.2 on HeinHtet-PC with PID 30143 (/home/heinhtet/Desktop/UPC_APLAS/scheduling-0.0.1-SNAPSHOT.jar started by root in /home/heinhtet/Desktop/UPC_APLAS)
+2021-10-03 19:52:17.842  INFO 30143 --- [           main] c.s.u.scheduling.SchedulingApplication   : No active profile set, falling back to default profiles: default
+2021-10-03 19:52:18.912  INFO 30143 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9000 (http)
+2021-10-03 19:52:18.925  INFO 30143 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-10-03 19:52:18.925  INFO 30143 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.50]
+2021-10-03 19:52:18.998  INFO 30143 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-10-03 19:52:18.998  INFO 30143 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1093 ms
+2021-10-03 19:52:19.410  INFO 30143 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9000 (http) with context path ''
+2021-10-03 19:52:19.421  INFO 30143 --- [           main] c.s.u.scheduling.SchedulingApplication   : Started SchedulingApplication in 2.051 seconds (JVM running for 2.476)
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v2.5.3)
+
+2021-10-03 20:08:24.642  INFO 3755 --- [           main] c.s.u.scheduling.SchedulingApplication   : Starting SchedulingApplication v0.0.1-SNAPSHOT using Java 13.0.2 on HeinHtet-PC with PID 3755 (/home/heinhtet/Desktop/UPC_APLAS/scheduling-0.0.1-SNAPSHOT.jar started by root in /home/heinhtet/Desktop/UPC_APLAS)
+2021-10-03 20:08:24.646  INFO 3755 --- [           main] c.s.u.scheduling.SchedulingApplication   : No active profile set, falling back to default profiles: default
+2021-10-03 20:08:25.683  INFO 3755 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9000 (http)
+2021-10-03 20:08:25.694  INFO 3755 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-10-03 20:08:25.694  INFO 3755 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.50]
+2021-10-03 20:08:25.747  INFO 3755 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-10-03 20:08:25.747  INFO 3755 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1039 ms
+2021-10-03 20:08:26.119  WARN 3755 --- [           main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 9000 is already in use
+2021-10-03 20:08:26.123  INFO 3755 --- [           main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2021-10-03 20:08:26.137  INFO 3755 --- [           main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-10-03 20:08:26.150 ERROR 3755 --- [           main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 9000 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 9000 or configure this application to listen on another port.
+
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v2.5.3)
+
+2021-10-03 20:11:11.504  INFO 4815 --- [           main] c.s.u.scheduling.SchedulingApplication   : Starting SchedulingApplication v0.0.1-SNAPSHOT using Java 13.0.2 on HeinHtet-PC with PID 4815 (/home/heinhtet/Desktop/UPC_APLAS/scheduling-0.0.1-SNAPSHOT.jar started by root in /home/heinhtet/Desktop/UPC_APLAS)
+2021-10-03 20:11:11.507  INFO 4815 --- [           main] c.s.u.scheduling.SchedulingApplication   : No active profile set, falling back to default profiles: default
+2021-10-03 20:11:12.587  INFO 4815 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9000 (http)
+2021-10-03 20:11:12.600  INFO 4815 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-10-03 20:11:12.600  INFO 4815 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.50]
+2021-10-03 20:11:12.657  INFO 4815 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-10-03 20:11:12.657  INFO 4815 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1090 ms
+2021-10-03 20:11:13.054  WARN 4815 --- [           main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 9000 is already in use
+2021-10-03 20:11:13.058  INFO 4815 --- [           main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2021-10-03 20:11:13.071  INFO 4815 --- [           main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-10-03 20:11:13.084 ERROR 4815 --- [           main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 9000 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 9000 or configure this application to listen on another port.
+
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v2.5.3)
+
+2021-10-03 20:25:49.338  INFO 9836 --- [           main] c.s.u.scheduling.SchedulingApplication   : Starting SchedulingApplication v0.0.1-SNAPSHOT using Java 13.0.2 on HeinHtet-PC with PID 9836 (/home/heinhtet/Desktop/UPC_APLAS/scheduling-0.0.1-SNAPSHOT.jar started by root in /home/heinhtet/Desktop/UPC_APLAS)
+2021-10-03 20:25:49.341  INFO 9836 --- [           main] c.s.u.scheduling.SchedulingApplication   : No active profile set, falling back to default profiles: default
+2021-10-03 20:25:50.392  INFO 9836 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9000 (http)
+2021-10-03 20:25:50.404  INFO 9836 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-10-03 20:25:50.404  INFO 9836 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.50]
+2021-10-03 20:25:50.460  INFO 9836 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-10-03 20:25:50.460  INFO 9836 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1049 ms
+2021-10-03 20:25:50.846  WARN 9836 --- [           main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 9000 is already in use
+2021-10-03 20:25:50.850  INFO 9836 --- [           main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2021-10-03 20:25:50.864  INFO 9836 --- [           main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-10-03 20:25:50.877 ERROR 9836 --- [           main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 9000 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 9000 or configure this application to listen on another port.
+
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v2.5.3)
+
+2021-10-03 20:26:11.805  INFO 9965 --- [           main] c.s.u.scheduling.SchedulingApplication   : Starting SchedulingApplication v0.0.1-SNAPSHOT using Java 13.0.2 on HeinHtet-PC with PID 9965 (/home/heinhtet/Desktop/UPC_APLAS/scheduling-0.0.1-SNAPSHOT.jar started by root in /home/heinhtet/Desktop/UPC_APLAS)
+2021-10-03 20:26:11.808  INFO 9965 --- [           main] c.s.u.scheduling.SchedulingApplication   : No active profile set, falling back to default profiles: default
+2021-10-03 20:26:12.810  INFO 9965 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9000 (http)
+2021-10-03 20:26:12.821  INFO 9965 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-10-03 20:26:12.822  INFO 9965 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.50]
+2021-10-03 20:26:12.871  INFO 9965 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-10-03 20:26:12.871  INFO 9965 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1008 ms
+2021-10-03 20:26:13.245  WARN 9965 --- [           main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 9000 is already in use
+2021-10-03 20:26:13.249  INFO 9965 --- [           main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2021-10-03 20:26:13.262  INFO 9965 --- [           main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-10-03 20:26:13.275 ERROR 9965 --- [           main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 9000 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 9000 or configure this application to listen on another port.
+
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v2.5.3)
+
+2021-10-03 20:28:10.524  INFO 10684 --- [           main] c.s.u.scheduling.SchedulingApplication   : Starting SchedulingApplication v0.0.1-SNAPSHOT using Java 13.0.2 on HeinHtet-PC with PID 10684 (/home/heinhtet/Desktop/UPC_APLAS/scheduling-0.0.1-SNAPSHOT.jar started by root in /home/heinhtet/Desktop/UPC_APLAS)
+2021-10-03 20:28:10.529  INFO 10684 --- [           main] c.s.u.scheduling.SchedulingApplication   : No active profile set, falling back to default profiles: default
+2021-10-03 20:28:11.536  INFO 10684 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9000 (http)
+2021-10-03 20:28:11.558  INFO 10684 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-10-03 20:28:11.558  INFO 10684 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.50]
+2021-10-03 20:28:11.609  INFO 10684 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-10-03 20:28:11.609  INFO 10684 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1021 ms
+2021-10-03 20:28:11.992  WARN 10684 --- [           main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 9000 is already in use
+2021-10-03 20:28:11.996  INFO 10684 --- [           main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2021-10-03 20:28:12.015  INFO 10684 --- [           main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-10-03 20:28:12.027 ERROR 10684 --- [           main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 9000 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 9000 or configure this application to listen on another port.
+
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v2.5.3)
+
+2021-10-03 20:32:11.999  INFO 12270 --- [           main] c.s.u.scheduling.SchedulingApplication   : Starting SchedulingApplication v0.0.1-SNAPSHOT using Java 13.0.2 on HeinHtet-PC with PID 12270 (/home/heinhtet/Desktop/UPC_APLAS/scheduling-0.0.1-SNAPSHOT.jar started by root in /home/heinhtet/Desktop/UPC_APLAS)
+2021-10-03 20:32:12.002  INFO 12270 --- [           main] c.s.u.scheduling.SchedulingApplication   : No active profile set, falling back to default profiles: default
+2021-10-03 20:32:13.051  INFO 12270 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9000 (http)
+2021-10-03 20:32:13.073  INFO 12270 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-10-03 20:32:13.073  INFO 12270 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.50]
+2021-10-03 20:32:13.124  INFO 12270 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-10-03 20:32:13.124  INFO 12270 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1027 ms
+2021-10-03 20:32:13.502  WARN 12270 --- [           main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 9000 is already in use
+2021-10-03 20:32:13.506  INFO 12270 --- [           main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2021-10-03 20:32:13.518  INFO 12270 --- [           main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-10-03 20:32:13.531 ERROR 12270 --- [           main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 9000 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 9000 or configure this application to listen on another port.
+
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v2.5.3)
+
+2021-10-03 20:39:29.117  INFO 14994 --- [           main] c.s.u.scheduling.SchedulingApplication   : Starting SchedulingApplication v0.0.1-SNAPSHOT using Java 13.0.2 on HeinHtet-PC with PID 14994 (/home/heinhtet/Desktop/UPC_APLAS/scheduling-0.0.1-SNAPSHOT.jar started by root in /home/heinhtet/Desktop/UPC_APLAS)
+2021-10-03 20:39:29.120  INFO 14994 --- [           main] c.s.u.scheduling.SchedulingApplication   : No active profile set, falling back to default profiles: default
+2021-10-03 20:39:30.432  INFO 14994 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9000 (http)
+2021-10-03 20:39:30.472  INFO 14994 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-10-03 20:39:30.472  INFO 14994 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.50]
+2021-10-03 20:39:30.554  INFO 14994 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-10-03 20:39:30.554  INFO 14994 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1345 ms
+2021-10-03 20:39:31.077  WARN 14994 --- [           main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 9000 is already in use
+2021-10-03 20:39:31.081  INFO 14994 --- [           main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2021-10-03 20:39:31.099  INFO 14994 --- [           main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-10-03 20:39:31.115 ERROR 14994 --- [           main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 9000 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 9000 or configure this application to listen on another port.
+
+2021-10-03 20:42:24.368  INFO 30143 --- [io-9000-exec-17] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-10-03 20:42:24.370  INFO 30143 --- [io-9000-exec-17] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-10-03 20:42:24.505  INFO 30143 --- [io-9000-exec-17] c.s.u.s.s.AplasSchedulingServiceImpl     : The amount is zero.
+2021-10-03 20:42:24.506  INFO 30143 --- [io-9000-exec-17] c.s.u.s.s.AplasSchedulingServiceImpl     : The amount is zero.
+2021-10-03 20:42:24.506  INFO 30143 --- [io-9000-exec-17] c.s.u.s.s.AplasSchedulingServiceImpl     : The amount is zero.
+2021-10-03 20:42:24.506  INFO 30143 --- [io-9000-exec-17] c.s.u.s.s.AplasSchedulingServiceImpl     : The amount is zero.
+2021-10-03 20:42:24.506  INFO 30143 --- [io-9000-exec-17] c.s.u.s.s.AplasSchedulingServiceImpl     : The amount is zero.
+2021-10-03 20:42:24.507  INFO 30143 --- [io-9000-exec-17] c.s.u.s.s.AplasSchedulingServiceImpl     : S-1 PC-6 Amount: 18
+2021-10-03 20:42:24.507  INFO 30143 --- [io-9000-exec-17] c.s.u.s.s.AplasSchedulingServiceImpl     : S-1 PC-5 Amount: 12
+2021-10-03 20:42:24.507  INFO 30143 --- [io-9000-exec-17] c.s.u.s.s.AplasSchedulingServiceImpl     : S-1 PC-4 Amount: 8
+2021-10-03 20:42:24.507  INFO 30143 --- [io-9000-exec-17] c.s.u.s.s.AplasSchedulingServiceImpl     : S-1 PC-3 Amount: 3
+2021-10-03 20:42:24.508  INFO 30143 --- [io-9000-exec-17] c.s.u.s.s.AplasSchedulingServiceImpl     : S-1 PC-6 Turns: 3
+2021-10-03 20:42:24.508  INFO 30143 --- [io-9000-exec-17] c.s.u.s.s.AplasSchedulingServiceImpl     : S-1 PC-5 Turns: 3
+2021-10-03 20:42:24.508  INFO 30143 --- [io-9000-exec-17] c.s.u.s.s.AplasSchedulingServiceImpl     : S-1 PC-4 Turns: 2
+2021-10-03 20:42:24.508  INFO 30143 --- [io-9000-exec-17] c.s.u.s.s.AplasSchedulingServiceImpl     : S-1 PC-3 Turns: 3
+2021-10-03 20:42:24.508  INFO 30143 --- [io-9000-exec-17] c.s.u.s.s.AplasSchedulingServiceImpl     : S-1 PC-6 Processing Time: 132 Seconds
+2021-10-03 20:42:24.508  INFO 30143 --- [io-9000-exec-17] c.s.u.s.s.AplasSchedulingServiceImpl     : S-1 PC-5 Processing Time: 138 Seconds
+2021-10-03 20:42:24.508  INFO 30143 --- [io-9000-exec-17] c.s.u.s.s.AplasSchedulingServiceImpl     : S-1 PC-4 Processing Time: 126 Seconds
+2021-10-03 20:42:24.508  INFO 30143 --- [io-9000-exec-17] c.s.u.s.s.AplasSchedulingServiceImpl     : S-1 PC-3 Processing Time: 129 Seconds
+2021-10-03 20:42:24.577  INFO 30143 --- [io-9000-exec-19] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-10-03 20:42:24.622 ERROR 30143 --- [io-9000-exec-19] o.s.web.servlet.DispatcherServlet        : Context initialization failed
+
+org.springframework.beans.factory.BeanDefinitionStoreException: IOException parsing XML document from ServletContext resource [/WEB-INF/dispatcherServlet-servlet.xml]; nested exception is java.io.FileNotFoundException: Could not open ServletContext resource [/WEB-INF/dispatcherServlet-servlet.xml]
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:342) ~[spring-beans-5.3.9.jar!/:5.3.9]
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:310) ~[spring-beans-5.3.9.jar!/:5.3.9]
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:188) ~[spring-beans-5.3.9.jar!/:5.3.9]
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:224) ~[spring-beans-5.3.9.jar!/:5.3.9]
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:195) ~[spring-beans-5.3.9.jar!/:5.3.9]
+	at org.springframework.web.context.support.XmlWebApplicationContext.loadBeanDefinitions(XmlWebApplicationContext.java:125) ~[spring-web-5.3.9.jar!/:5.3.9]
+	at org.springframework.web.context.support.XmlWebApplicationContext.loadBeanDefinitions(XmlWebApplicationContext.java:94) ~[spring-web-5.3.9.jar!/:5.3.9]
+	at org.springframework.context.support.AbstractRefreshableApplicationContext.refreshBeanFactory(AbstractRefreshableApplicationContext.java:130) ~[spring-context-5.3.9.jar!/:5.3.9]
+	at org.springframework.context.support.AbstractApplicationContext.obtainFreshBeanFactory(AbstractApplicationContext.java:671) ~[spring-context-5.3.9.jar!/:5.3.9]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:553) ~[spring-context-5.3.9.jar!/:5.3.9]
+	at org.springframework.web.servlet.FrameworkServlet.configureAndRefreshWebApplicationContext(FrameworkServlet.java:702) ~[spring-webmvc-5.3.9.jar!/:5.3.9]
+	at org.springframework.web.servlet.FrameworkServlet.createWebApplicationContext(FrameworkServlet.java:668) ~[spring-webmvc-5.3.9.jar!/:5.3.9]
+	at org.springframework.web.servlet.FrameworkServlet.createWebApplicationContext(FrameworkServlet.java:716) ~[spring-webmvc-5.3.9.jar!/:5.3.9]
+	at org.springframework.web.servlet.FrameworkServlet.initWebApplicationContext(FrameworkServlet.java:591) ~[spring-webmvc-5.3.9.jar!/:5.3.9]
+	at org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:530) ~[spring-webmvc-5.3.9.jar!/:5.3.9]
+	at org.springframework.web.servlet.HttpServletBean.init(HttpServletBean.java:170) ~[spring-webmvc-5.3.9.jar!/:5.3.9]
+	at javax.servlet.GenericServlet.init(GenericServlet.java:158) ~[tomcat-embed-core-9.0.50.jar!/:na]
+	at org.apache.catalina.core.StandardWrapper.initServlet(StandardWrapper.java:1143) ~[tomcat-embed-core-9.0.50.jar!/:na]
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1096) ~[tomcat-embed-core-9.0.50.jar!/:na]
+	at org.apache.catalina.core.StandardWrapper.allocate(StandardWrapper.java:767) ~[tomcat-embed-core-9.0.50.jar!/:na]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:133) ~[tomcat-embed-core-9.0.50.jar!/:na]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97) ~[tomcat-embed-core-9.0.50.jar!/:na]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542) ~[tomcat-embed-core-9.0.50.jar!/:na]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143) ~[tomcat-embed-core-9.0.50.jar!/:na]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) ~[tomcat-embed-core-9.0.50.jar!/:na]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) ~[tomcat-embed-core-9.0.50.jar!/:na]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357) ~[tomcat-embed-core-9.0.50.jar!/:na]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382) ~[tomcat-embed-core-9.0.50.jar!/:na]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) ~[tomcat-embed-core-9.0.50.jar!/:na]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893) ~[tomcat-embed-core-9.0.50.jar!/:na]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1723) ~[tomcat-embed-core-9.0.50.jar!/:na]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) ~[tomcat-embed-core-9.0.50.jar!/:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) ~[na:na]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.50.jar!/:na]
+	at java.base/java.lang.Thread.run(Thread.java:830) ~[na:na]
+Caused by: java.io.FileNotFoundException: Could not open ServletContext resource [/WEB-INF/dispatcherServlet-servlet.xml]
+	at org.springframework.web.context.support.ServletContextResource.getInputStream(ServletContextResource.java:159) ~[spring-web-5.3.9.jar!/:5.3.9]
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:333) ~[spring-beans-5.3.9.jar!/:5.3.9]
+	... 35 common frames omitted
+
+2021-10-03 20:42:24.642  INFO 30143 --- [nio-9000-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-10-03 20:42:24.643 ERROR 30143 --- [nio-9000-exec-2] o.s.web.servlet.DispatcherServlet        : Context initialization failed
+
+java.lang.IllegalStateException: The resources may not be accessed if they are not currently started
+	at org.apache.catalina.webresources.StandardRoot.validate(StandardRoot.java:246) ~[tomcat-embed-core-9.0.50.jar!/:na]
+	at org.apache.catalina.webresources.StandardRoot.getResource(StandardRoot.java:212) ~[tomcat-embed-core-9.0.50.jar!/:na]
+	at org.apache.catalina.webresources.StandardRoot.getResource(StandardRoot.java:206) ~[tomcat-embed-core-9.0.50.jar!/:na]
+	at org.apache.catalina.core.ApplicationContext.getResourceAsStream(ApplicationContext.java:561) ~[tomcat-embed-core-9.0.50.jar!/:na]
+	at org.apache.catalina.core.ApplicationContextFacade.getResourceAsStream(ApplicationContextFacade.java:214) ~[tomcat-embed-core-9.0.50.jar!/:na]
+	at org.springframework.web.context.support.ServletContextResource.getInputStream(ServletContextResource.java:157) ~[spring-web-5.3.9.jar!/:5.3.9]
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:333) ~[spring-beans-5.3.9.jar!/:5.3.9]
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:310) ~[spring-beans-5.3.9.jar!/:5.3.9]
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:188) ~[spring-beans-5.3.9.jar!/:5.3.9]
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:224) ~[spring-beans-5.3.9.jar!/:5.3.9]
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:195) ~[spring-beans-5.3.9.jar!/:5.3.9]
+	at org.springframework.web.context.support.XmlWebApplicationContext.loadBeanDefinitions(XmlWebApplicationContext.java:125) ~[spring-web-5.3.9.jar!/:5.3.9]
+	at org.springframework.web.context.support.XmlWebApplicationContext.loadBeanDefinitions(XmlWebApplicationContext.java:94) ~[spring-web-5.3.9.jar!/:5.3.9]
+	at org.springframework.context.support.AbstractRefreshableApplicationContext.refreshBeanFactory(AbstractRefreshableApplicationContext.java:130) ~[spring-context-5.3.9.jar!/:5.3.9]
+	at org.springframework.context.support.AbstractApplicationContext.obtainFreshBeanFactory(AbstractApplicationContext.java:671) ~[spring-context-5.3.9.jar!/:5.3.9]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:553) ~[spring-context-5.3.9.jar!/:5.3.9]
+	at org.springframework.web.servlet.FrameworkServlet.configureAndRefreshWebApplicationContext(FrameworkServlet.java:702) ~[spring-webmvc-5.3.9.jar!/:5.3.9]
+	at org.springframework.web.servlet.FrameworkServlet.createWebApplicationContext(FrameworkServlet.java:668) ~[spring-webmvc-5.3.9.jar!/:5.3.9]
+	at org.springframework.web.servlet.FrameworkServlet.createWebApplicationContext(FrameworkServlet.java:716) ~[spring-webmvc-5.3.9.jar!/:5.3.9]
+	at org.springframework.web.servlet.FrameworkServlet.initWebApplicationContext(FrameworkServlet.java:591) ~[spring-webmvc-5.3.9.jar!/:5.3.9]
+	at org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:530) ~[spring-webmvc-5.3.9.jar!/:5.3.9]
+	at org.springframework.web.servlet.HttpServletBean.init(HttpServletBean.java:170) ~[spring-webmvc-5.3.9.jar!/:5.3.9]
+	at javax.servlet.GenericServlet.init(GenericServlet.java:158) ~[tomcat-embed-core-9.0.50.jar!/:na]
+	at org.apache.catalina.core.StandardWrapper.initServlet(StandardWrapper.java:1143) ~[tomcat-embed-core-9.0.50.jar!/:na]
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1096) ~[tomcat-embed-core-9.0.50.jar!/:na]
+	at org.apache.catalina.core.StandardWrapper.allocate(StandardWrapper.java:767) ~[tomcat-embed-core-9.0.50.jar!/:na]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:133) ~[tomcat-embed-core-9.0.50.jar!/:na]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97) ~[tomcat-embed-core-9.0.50.jar!/:na]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542) ~[tomcat-embed-core-9.0.50.jar!/:na]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143) ~[tomcat-embed-core-9.0.50.jar!/:na]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) ~[tomcat-embed-core-9.0.50.jar!/:na]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) ~[tomcat-embed-core-9.0.50.jar!/:na]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357) ~[tomcat-embed-core-9.0.50.jar!/:na]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382) ~[tomcat-embed-core-9.0.50.jar!/:na]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) ~[tomcat-embed-core-9.0.50.jar!/:na]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893) ~[tomcat-embed-core-9.0.50.jar!/:na]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1723) ~[tomcat-embed-core-9.0.50.jar!/:na]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) ~[tomcat-embed-core-9.0.50.jar!/:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) ~[na:na]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.50.jar!/:na]
+	at java.base/java.lang.Thread.run(Thread.java:830) ~[na:na]
+
+2021-10-03 20:42:24.644  INFO 30143 --- [nio-9000-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-10-03 20:42:24.645 ERROR 30143 --- [nio-9000-exec-1] o.s.web.servlet.DispatcherServlet        : Context initialization failed
+
+java.lang.IllegalStateException: The resources may not be accessed if they are not currently started
+	at org.apache.catalina.webresources.StandardRoot.validate(StandardRoot.java:246) ~[tomcat-embed-core-9.0.50.jar!/:na]
+	at org.apache.catalina.webresources.StandardRoot.getResource(StandardRoot.java:212) ~[tomcat-embed-core-9.0.50.jar!/:na]
+	at org.apache.catalina.webresources.StandardRoot.getResource(StandardRoot.java:206) ~[tomcat-embed-core-9.0.50.jar!/:na]
+	at org.apache.catalina.core.ApplicationContext.getResourceAsStream(ApplicationContext.java:561) ~[tomcat-embed-core-9.0.50.jar!/:na]
+	at org.apache.catalina.core.ApplicationContextFacade.getResourceAsStream(ApplicationContextFacade.java:214) ~[tomcat-embed-core-9.0.50.jar!/:na]
+	at org.springframework.web.context.support.ServletContextResource.getInputStream(ServletContextResource.java:157) ~[spring-web-5.3.9.jar!/:5.3.9]
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:333) ~[spring-beans-5.3.9.jar!/:5.3.9]
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:310) ~[spring-beans-5.3.9.jar!/:5.3.9]
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:188) ~[spring-beans-5.3.9.jar!/:5.3.9]
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:224) ~[spring-beans-5.3.9.jar!/:5.3.9]
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:195) ~[spring-beans-5.3.9.jar!/:5.3.9]
+	at org.springframework.web.context.support.XmlWebApplicationContext.loadBeanDefinitions(XmlWebApplicationContext.java:125) ~[spring-web-5.3.9.jar!/:5.3.9]
+	at org.springframework.web.context.support.XmlWebApplicationContext.loadBeanDefinitions(XmlWebApplicationContext.java:94) ~[spring-web-5.3.9.jar!/:5.3.9]
+	at org.springframework.context.support.AbstractRefreshableApplicationContext.refreshBeanFactory(AbstractRefreshableApplicationContext.java:130) ~[spring-context-5.3.9.jar!/:5.3.9]
+	at org.springframework.context.support.AbstractApplicationContext.obtainFreshBeanFactory(AbstractApplicationContext.java:671) ~[spring-context-5.3.9.jar!/:5.3.9]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:553) ~[spring-context-5.3.9.jar!/:5.3.9]
+	at org.springframework.web.servlet.FrameworkServlet.configureAndRefreshWebApplicationContext(FrameworkServlet.java:702) ~[spring-webmvc-5.3.9.jar!/:5.3.9]
+	at org.springframework.web.servlet.FrameworkServlet.createWebApplicationContext(FrameworkServlet.java:668) ~[spring-webmvc-5.3.9.jar!/:5.3.9]
+	at org.springframework.web.servlet.FrameworkServlet.createWebApplicationContext(FrameworkServlet.java:716) ~[spring-webmvc-5.3.9.jar!/:5.3.9]
+	at org.springframework.web.servlet.FrameworkServlet.initWebApplicationContext(FrameworkServlet.java:591) ~[spring-webmvc-5.3.9.jar!/:5.3.9]
+	at org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:530) ~[spring-webmvc-5.3.9.jar!/:5.3.9]
+	at org.springframework.web.servlet.HttpServletBean.init(HttpServletBean.java:170) ~[spring-webmvc-5.3.9.jar!/:5.3.9]
+	at javax.servlet.GenericServlet.init(GenericServlet.java:158) ~[tomcat-embed-core-9.0.50.jar!/:na]
+	at org.apache.catalina.core.StandardWrapper.initServlet(StandardWrapper.java:1143) ~[tomcat-embed-core-9.0.50.jar!/:na]
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1096) ~[tomcat-embed-core-9.0.50.jar!/:na]
+	at org.apache.catalina.core.StandardWrapper.allocate(StandardWrapper.java:767) ~[tomcat-embed-core-9.0.50.jar!/:na]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:133) ~[tomcat-embed-core-9.0.50.jar!/:na]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97) ~[tomcat-embed-core-9.0.50.jar!/:na]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542) ~[tomcat-embed-core-9.0.50.jar!/:na]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143) ~[tomcat-embed-core-9.0.50.jar!/:na]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) ~[tomcat-embed-core-9.0.50.jar!/:na]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) ~[tomcat-embed-core-9.0.50.jar!/:na]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357) ~[tomcat-embed-core-9.0.50.jar!/:na]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382) ~[tomcat-embed-core-9.0.50.jar!/:na]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) ~[tomcat-embed-core-9.0.50.jar!/:na]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893) ~[tomcat-embed-core-9.0.50.jar!/:na]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1723) ~[tomcat-embed-core-9.0.50.jar!/:na]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) ~[tomcat-embed-core-9.0.50.jar!/:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) ~[na:na]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.50.jar!/:na]
+	at java.base/java.lang.Thread.run(Thread.java:830) ~[na:na]
+
+2021-10-03 20:42:24.645  INFO 30143 --- [nio-9000-exec-5] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-10-03 20:42:24.646 ERROR 30143 --- [nio-9000-exec-5] o.s.web.servlet.DispatcherServlet        : Context initialization failed
+
+java.lang.IllegalStateException: The resources may not be accessed if they are not currently started
+	at org.apache.catalina.webresources.StandardRoot.validate(StandardRoot.java:246) ~[tomcat-embed-core-9.0.50.jar!/:na]
+	at org.apache.catalina.webresources.StandardRoot.getResource(StandardRoot.java:212) ~[tomcat-embed-core-9.0.50.jar!/:na]
+	at org.apache.catalina.webresources.StandardRoot.getResource(StandardRoot.java:206) ~[tomcat-embed-core-9.0.50.jar!/:na]
+	at org.apache.catalina.core.ApplicationContext.getResourceAsStream(ApplicationContext.java:561) ~[tomcat-embed-core-9.0.50.jar!/:na]
+	at org.apache.catalina.core.ApplicationContextFacade.getResourceAsStream(ApplicationContextFacade.java:214) ~[tomcat-embed-core-9.0.50.jar!/:na]
+	at org.springframework.web.context.support.ServletContextResource.getInputStream(ServletContextResource.java:157) ~[spring-web-5.3.9.jar!/:5.3.9]
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:333) ~[spring-beans-5.3.9.jar!/:5.3.9]
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:310) ~[spring-beans-5.3.9.jar!/:5.3.9]
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:188) ~[spring-beans-5.3.9.jar!/:5.3.9]
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:224) ~[spring-beans-5.3.9.jar!/:5.3.9]
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:195) ~[spring-beans-5.3.9.jar!/:5.3.9]
+	at org.springframework.web.context.support.XmlWebApplicationContext.loadBeanDefinitions(XmlWebApplicationContext.java:125) ~[spring-web-5.3.9.jar!/:5.3.9]
+	at org.springframework.web.context.support.XmlWebApplicationContext.loadBeanDefinitions(XmlWebApplicationContext.java:94) ~[spring-web-5.3.9.jar!/:5.3.9]
+	at org.springframework.context.support.AbstractRefreshableApplicationContext.refreshBeanFactory(AbstractRefreshableApplicationContext.java:130) ~[spring-context-5.3.9.jar!/:5.3.9]
+	at org.springframework.context.support.AbstractApplicationContext.obtainFreshBeanFactory(AbstractApplicationContext.java:671) ~[spring-context-5.3.9.jar!/:5.3.9]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:553) ~[spring-context-5.3.9.jar!/:5.3.9]
+	at org.springframework.web.servlet.FrameworkServlet.configureAndRefreshWebApplicationContext(FrameworkServlet.java:702) ~[spring-webmvc-5.3.9.jar!/:5.3.9]
+	at org.springframework.web.servlet.FrameworkServlet.createWebApplicationContext(FrameworkServlet.java:668) ~[spring-webmvc-5.3.9.jar!/:5.3.9]
+	at org.springframework.web.servlet.FrameworkServlet.createWebApplicationContext(FrameworkServlet.java:716) ~[spring-webmvc-5.3.9.jar!/:5.3.9]
+	at org.springframework.web.servlet.FrameworkServlet.initWebApplicationContext(FrameworkServlet.java:591) ~[spring-webmvc-5.3.9.jar!/:5.3.9]
+	at org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:530) ~[spring-webmvc-5.3.9.jar!/:5.3.9]
+	at org.springframework.web.servlet.HttpServletBean.init(HttpServletBean.java:170) ~[spring-webmvc-5.3.9.jar!/:5.3.9]
+	at javax.servlet.GenericServlet.init(GenericServlet.java:158) ~[tomcat-embed-core-9.0.50.jar!/:na]
+	at org.apache.catalina.core.StandardWrapper.initServlet(StandardWrapper.java:1143) ~[tomcat-embed-core-9.0.50.jar!/:na]
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1096) ~[tomcat-embed-core-9.0.50.jar!/:na]
+	at org.apache.catalina.core.StandardWrapper.allocate(StandardWrapper.java:767) ~[tomcat-embed-core-9.0.50.jar!/:na]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:133) ~[tomcat-embed-core-9.0.50.jar!/:na]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97) ~[tomcat-embed-core-9.0.50.jar!/:na]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542) ~[tomcat-embed-core-9.0.50.jar!/:na]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143) ~[tomcat-embed-core-9.0.50.jar!/:na]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) ~[tomcat-embed-core-9.0.50.jar!/:na]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) ~[tomcat-embed-core-9.0.50.jar!/:na]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357) ~[tomcat-embed-core-9.0.50.jar!/:na]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382) ~[tomcat-embed-core-9.0.50.jar!/:na]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) ~[tomcat-embed-core-9.0.50.jar!/:na]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893) ~[tomcat-embed-core-9.0.50.jar!/:na]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1723) ~[tomcat-embed-core-9.0.50.jar!/:na]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) ~[tomcat-embed-core-9.0.50.jar!/:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) ~[na:na]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.50.jar!/:na]
+	at java.base/java.lang.Thread.run(Thread.java:830) ~[na:na]
+
+2021-10-03 20:42:24.647  INFO 30143 --- [nio-9000-exec-3] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-10-03 20:42:24.649 ERROR 30143 --- [nio-9000-exec-3] o.s.web.servlet.DispatcherServlet        : Context initialization failed
+
+java.lang.IllegalStateException: The resources may not be accessed if they are not currently started
+	at org.apache.catalina.webresources.StandardRoot.validate(StandardRoot.java:246) ~[tomcat-embed-core-9.0.50.jar!/:na]
+	at org.apache.catalina.webresources.StandardRoot.getResource(StandardRoot.java:212) ~[tomcat-embed-core-9.0.50.jar!/:na]
+	at org.apache.catalina.webresources.StandardRoot.getResource(StandardRoot.java:206) ~[tomcat-embed-core-9.0.50.jar!/:na]
+	at org.apache.catalina.core.ApplicationContext.getResourceAsStream(ApplicationContext.java:561) ~[tomcat-embed-core-9.0.50.jar!/:na]
+	at org.apache.catalina.core.ApplicationContextFacade.getResourceAsStream(ApplicationContextFacade.java:214) ~[tomcat-embed-core-9.0.50.jar!/:na]
+	at org.springframework.web.context.support.ServletContextResource.getInputStream(ServletContextResource.java:157) ~[spring-web-5.3.9.jar!/:5.3.9]
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:333) ~[spring-beans-5.3.9.jar!/:5.3.9]
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:310) ~[spring-beans-5.3.9.jar!/:5.3.9]
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:188) ~[spring-beans-5.3.9.jar!/:5.3.9]
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:224) ~[spring-beans-5.3.9.jar!/:5.3.9]
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:195) ~[spring-beans-5.3.9.jar!/:5.3.9]
+	at org.springframework.web.context.support.XmlWebApplicationContext.loadBeanDefinitions(XmlWebApplicationContext.java:125) ~[spring-web-5.3.9.jar!/:5.3.9]
+	at org.springframework.web.context.support.XmlWebApplicationContext.loadBeanDefinitions(XmlWebApplicationContext.java:94) ~[spring-web-5.3.9.jar!/:5.3.9]
+	at org.springframework.context.support.AbstractRefreshableApplicationContext.refreshBeanFactory(AbstractRefreshableApplicationContext.java:130) ~[spring-context-5.3.9.jar!/:5.3.9]
+	at org.springframework.context.support.AbstractApplicationContext.obtainFreshBeanFactory(AbstractApplicationContext.java:671) ~[spring-context-5.3.9.jar!/:5.3.9]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:553) ~[spring-context-5.3.9.jar!/:5.3.9]
+	at org.springframework.web.servlet.FrameworkServlet.configureAndRefreshWebApplicationContext(FrameworkServlet.java:702) ~[spring-webmvc-5.3.9.jar!/:5.3.9]
+	at org.springframework.web.servlet.FrameworkServlet.createWebApplicationContext(FrameworkServlet.java:668) ~[spring-webmvc-5.3.9.jar!/:5.3.9]
+	at org.springframework.web.servlet.FrameworkServlet.createWebApplicationContext(FrameworkServlet.java:716) ~[spring-webmvc-5.3.9.jar!/:5.3.9]
+	at org.springframework.web.servlet.FrameworkServlet.initWebApplicationContext(FrameworkServlet.java:591) ~[spring-webmvc-5.3.9.jar!/:5.3.9]
+	at org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:530) ~[spring-webmvc-5.3.9.jar!/:5.3.9]
+	at org.springframework.web.servlet.HttpServletBean.init(HttpServletBean.java:170) ~[spring-webmvc-5.3.9.jar!/:5.3.9]
+	at javax.servlet.GenericServlet.init(GenericServlet.java:158) ~[tomcat-embed-core-9.0.50.jar!/:na]
+	at org.apache.catalina.core.StandardWrapper.initServlet(StandardWrapper.java:1143) ~[tomcat-embed-core-9.0.50.jar!/:na]
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1096) ~[tomcat-embed-core-9.0.50.jar!/:na]
+	at org.apache.catalina.core.StandardWrapper.allocate(StandardWrapper.java:767) ~[tomcat-embed-core-9.0.50.jar!/:na]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:133) ~[tomcat-embed-core-9.0.50.jar!/:na]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97) ~[tomcat-embed-core-9.0.50.jar!/:na]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542) ~[tomcat-embed-core-9.0.50.jar!/:na]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143) ~[tomcat-embed-core-9.0.50.jar!/:na]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) ~[tomcat-embed-core-9.0.50.jar!/:na]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) ~[tomcat-embed-core-9.0.50.jar!/:na]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357) ~[tomcat-embed-core-9.0.50.jar!/:na]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382) ~[tomcat-embed-core-9.0.50.jar!/:na]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) ~[tomcat-embed-core-9.0.50.jar!/:na]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893) ~[tomcat-embed-core-9.0.50.jar!/:na]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1723) ~[tomcat-embed-core-9.0.50.jar!/:na]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) ~[tomcat-embed-core-9.0.50.jar!/:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) ~[na:na]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.50.jar!/:na]
+	at java.base/java.lang.Thread.run(Thread.java:830) ~[na:na]
+
+2021-10-03 20:42:24.652  INFO 30143 --- [nio-9000-exec-6] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-10-03 20:42:24.653 ERROR 30143 --- [nio-9000-exec-6] o.s.web.servlet.DispatcherServlet        : Context initialization failed
+
+java.lang.IllegalStateException: The resources may not be accessed if they are not currently started
+	at org.apache.catalina.webresources.StandardRoot.validate(StandardRoot.java:246) ~[tomcat-embed-core-9.0.50.jar!/:na]
+	at org.apache.catalina.webresources.StandardRoot.getResource(StandardRoot.java:212) ~[tomcat-embed-core-9.0.50.jar!/:na]
+	at org.apache.catalina.webresources.StandardRoot.getResource(StandardRoot.java:206) ~[tomcat-embed-core-9.0.50.jar!/:na]
+	at org.apache.catalina.core.ApplicationContext.getResourceAsStream(ApplicationContext.java:561) ~[tomcat-embed-core-9.0.50.jar!/:na]
+	at org.apache.catalina.core.ApplicationContextFacade.getResourceAsStream(ApplicationContextFacade.java:214) ~[tomcat-embed-core-9.0.50.jar!/:na]
+	at org.springframework.web.context.support.ServletContextResource.getInputStream(ServletContextResource.java:157) ~[spring-web-5.3.9.jar!/:5.3.9]
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:333) ~[spring-beans-5.3.9.jar!/:5.3.9]
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:310) ~[spring-beans-5.3.9.jar!/:5.3.9]
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:188) ~[spring-beans-5.3.9.jar!/:5.3.9]
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:224) ~[spring-beans-5.3.9.jar!/:5.3.9]
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:195) ~[spring-beans-5.3.9.jar!/:5.3.9]
+	at org.springframework.web.context.support.XmlWebApplicationContext.loadBeanDefinitions(XmlWebApplicationContext.java:125) ~[spring-web-5.3.9.jar!/:5.3.9]
+	at org.springframework.web.context.support.XmlWebApplicationContext.loadBeanDefinitions(XmlWebApplicationContext.java:94) ~[spring-web-5.3.9.jar!/:5.3.9]
+	at org.springframework.context.support.AbstractRefreshableApplicationContext.refreshBeanFactory(AbstractRefreshableApplicationContext.java:130) ~[spring-context-5.3.9.jar!/:5.3.9]
+	at org.springframework.context.support.AbstractApplicationContext.obtainFreshBeanFactory(AbstractApplicationContext.java:671) ~[spring-context-5.3.9.jar!/:5.3.9]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:553) ~[spring-context-5.3.9.jar!/:5.3.9]
+	at org.springframework.web.servlet.FrameworkServlet.configureAndRefreshWebApplicationContext(FrameworkServlet.java:702) ~[spring-webmvc-5.3.9.jar!/:5.3.9]
+	at org.springframework.web.servlet.FrameworkServlet.createWebApplicationContext(FrameworkServlet.java:668) ~[spring-webmvc-5.3.9.jar!/:5.3.9]
+	at org.springframework.web.servlet.FrameworkServlet.createWebApplicationContext(FrameworkServlet.java:716) ~[spring-webmvc-5.3.9.jar!/:5.3.9]
+	at org.springframework.web.servlet.FrameworkServlet.initWebApplicationContext(FrameworkServlet.java:591) ~[spring-webmvc-5.3.9.jar!/:5.3.9]
+	at org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:530) ~[spring-webmvc-5.3.9.jar!/:5.3.9]
+	at org.springframework.web.servlet.HttpServletBean.init(HttpServletBean.java:170) ~[spring-webmvc-5.3.9.jar!/:5.3.9]
+	at javax.servlet.GenericServlet.init(GenericServlet.java:158) ~[tomcat-embed-core-9.0.50.jar!/:na]
+	at org.apache.catalina.core.StandardWrapper.initServlet(StandardWrapper.java:1143) ~[tomcat-embed-core-9.0.50.jar!/:na]
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1096) ~[tomcat-embed-core-9.0.50.jar!/:na]
+	at org.apache.catalina.core.StandardWrapper.allocate(StandardWrapper.java:767) ~[tomcat-embed-core-9.0.50.jar!/:na]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:133) ~[tomcat-embed-core-9.0.50.jar!/:na]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97) ~[tomcat-embed-core-9.0.50.jar!/:na]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542) ~[tomcat-embed-core-9.0.50.jar!/:na]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143) ~[tomcat-embed-core-9.0.50.jar!/:na]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) ~[tomcat-embed-core-9.0.50.jar!/:na]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) ~[tomcat-embed-core-9.0.50.jar!/:na]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357) ~[tomcat-embed-core-9.0.50.jar!/:na]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382) ~[tomcat-embed-core-9.0.50.jar!/:na]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) ~[tomcat-embed-core-9.0.50.jar!/:na]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893) ~[tomcat-embed-core-9.0.50.jar!/:na]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1723) ~[tomcat-embed-core-9.0.50.jar!/:na]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) ~[tomcat-embed-core-9.0.50.jar!/:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) ~[na:na]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.50.jar!/:na]
+	at java.base/java.lang.Thread.run(Thread.java:830) ~[na:na]
+
+2021-10-03 20:42:24.653  INFO 30143 --- [io-9000-exec-13] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-10-03 20:42:24.654 ERROR 30143 --- [io-9000-exec-13] o.s.web.servlet.DispatcherServlet        : Context initialization failed
+
+java.lang.IllegalStateException: The resources may not be accessed if they are not currently started
+	at org.apache.catalina.webresources.StandardRoot.validate(StandardRoot.java:246) ~[tomcat-embed-core-9.0.50.jar!/:na]
+	at org.apache.catalina.webresources.StandardRoot.getResource(StandardRoot.java:212) ~[tomcat-embed-core-9.0.50.jar!/:na]
+	at org.apache.catalina.webresources.StandardRoot.getResource(StandardRoot.java:206) ~[tomcat-embed-core-9.0.50.jar!/:na]
+	at org.apache.catalina.core.ApplicationContext.getResourceAsStream(ApplicationContext.java:561) ~[tomcat-embed-core-9.0.50.jar!/:na]
+	at org.apache.catalina.core.ApplicationContextFacade.getResourceAsStream(ApplicationContextFacade.java:214) ~[tomcat-embed-core-9.0.50.jar!/:na]
+	at org.springframework.web.context.support.ServletContextResource.getInputStream(ServletContextResource.java:157) ~[spring-web-5.3.9.jar!/:5.3.9]
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:333) ~[spring-beans-5.3.9.jar!/:5.3.9]
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:310) ~[spring-beans-5.3.9.jar!/:5.3.9]
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:188) ~[spring-beans-5.3.9.jar!/:5.3.9]
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:224) ~[spring-beans-5.3.9.jar!/:5.3.9]
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:195) ~[spring-beans-5.3.9.jar!/:5.3.9]
+	at org.springframework.web.context.support.XmlWebApplicationContext.loadBeanDefinitions(XmlWebApplicationContext.java:125) ~[spring-web-5.3.9.jar!/:5.3.9]
+	at org.springframework.web.context.support.XmlWebApplicationContext.loadBeanDefinitions(XmlWebApplicationContext.java:94) ~[spring-web-5.3.9.jar!/:5.3.9]
+	at org.springframework.context.support.AbstractRefreshableApplicationContext.refreshBeanFactory(AbstractRefreshableApplicationContext.java:130) ~[spring-context-5.3.9.jar!/:5.3.9]
+	at org.springframework.context.support.AbstractApplicationContext.obtainFreshBeanFactory(AbstractApplicationContext.java:671) ~[spring-context-5.3.9.jar!/:5.3.9]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:553) ~[spring-context-5.3.9.jar!/:5.3.9]
+	at org.springframework.web.servlet.FrameworkServlet.configureAndRefreshWebApplicationContext(FrameworkServlet.java:702) ~[spring-webmvc-5.3.9.jar!/:5.3.9]
+	at org.springframework.web.servlet.FrameworkServlet.createWebApplicationContext(FrameworkServlet.java:668) ~[spring-webmvc-5.3.9.jar!/:5.3.9]
+	at org.springframework.web.servlet.FrameworkServlet.createWebApplicationContext(FrameworkServlet.java:716) ~[spring-webmvc-5.3.9.jar!/:5.3.9]
+	at org.springframework.web.servlet.FrameworkServlet.initWebApplicationContext(FrameworkServlet.java:591) ~[spring-webmvc-5.3.9.jar!/:5.3.9]
+	at org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:530) ~[spring-webmvc-5.3.9.jar!/:5.3.9]
+	at org.springframework.web.servlet.HttpServletBean.init(HttpServletBean.java:170) ~[spring-webmvc-5.3.9.jar!/:5.3.9]
+	at javax.servlet.GenericServlet.init(GenericServlet.java:158) ~[tomcat-embed-core-9.0.50.jar!/:na]
+	at org.apache.catalina.core.StandardWrapper.initServlet(StandardWrapper.java:1143) ~[tomcat-embed-core-9.0.50.jar!/:na]
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1096) ~[tomcat-embed-core-9.0.50.jar!/:na]
+	at org.apache.catalina.core.StandardWrapper.allocate(StandardWrapper.java:767) ~[tomcat-embed-core-9.0.50.jar!/:na]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:133) ~[tomcat-embed-core-9.0.50.jar!/:na]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97) ~[tomcat-embed-core-9.0.50.jar!/:na]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542) ~[tomcat-embed-core-9.0.50.jar!/:na]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143) ~[tomcat-embed-core-9.0.50.jar!/:na]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) ~[tomcat-embed-core-9.0.50.jar!/:na]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) ~[tomcat-embed-core-9.0.50.jar!/:na]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357) ~[tomcat-embed-core-9.0.50.jar!/:na]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382) ~[tomcat-embed-core-9.0.50.jar!/:na]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) ~[tomcat-embed-core-9.0.50.jar!/:na]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893) ~[tomcat-embed-core-9.0.50.jar!/:na]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1723) ~[tomcat-embed-core-9.0.50.jar!/:na]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) ~[tomcat-embed-core-9.0.50.jar!/:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) ~[na:na]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.50.jar!/:na]
+	at java.base/java.lang.Thread.run(Thread.java:830) ~[na:na]
+
+2021-10-03 20:42:24.655  INFO 30143 --- [io-9000-exec-10] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-10-03 20:42:24.655 ERROR 30143 --- [io-9000-exec-10] o.s.web.servlet.DispatcherServlet        : Context initialization failed
+
+java.lang.IllegalStateException: The resources may not be accessed if they are not currently started
+	at org.apache.catalina.webresources.StandardRoot.validate(StandardRoot.java:246) ~[tomcat-embed-core-9.0.50.jar!/:na]
+	at org.apache.catalina.webresources.StandardRoot.getResource(StandardRoot.java:212) ~[tomcat-embed-core-9.0.50.jar!/:na]
+	at org.apache.catalina.webresources.StandardRoot.getResource(StandardRoot.java:206) ~[tomcat-embed-core-9.0.50.jar!/:na]
+	at org.apache.catalina.core.ApplicationContext.getResourceAsStream(ApplicationContext.java:561) ~[tomcat-embed-core-9.0.50.jar!/:na]
+	at org.apache.catalina.core.ApplicationContextFacade.getResourceAsStream(ApplicationContextFacade.java:214) ~[tomcat-embed-core-9.0.50.jar!/:na]
+	at org.springframework.web.context.support.ServletContextResource.getInputStream(ServletContextResource.java:157) ~[spring-web-5.3.9.jar!/:5.3.9]
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:333) ~[spring-beans-5.3.9.jar!/:5.3.9]
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:310) ~[spring-beans-5.3.9.jar!/:5.3.9]
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:188) ~[spring-beans-5.3.9.jar!/:5.3.9]
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:224) ~[spring-beans-5.3.9.jar!/:5.3.9]
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:195) ~[spring-beans-5.3.9.jar!/:5.3.9]
+	at org.springframework.web.context.support.XmlWebApplicationContext.loadBeanDefinitions(XmlWebApplicationContext.java:125) ~[spring-web-5.3.9.jar!/:5.3.9]
+	at org.springframework.web.context.support.XmlWebApplicationContext.loadBeanDefinitions(XmlWebApplicationContext.java:94) ~[spring-web-5.3.9.jar!/:5.3.9]
+	at org.springframework.context.support.AbstractRefreshableApplicationContext.refreshBeanFactory(AbstractRefreshableApplicationContext.java:130) ~[spring-context-5.3.9.jar!/:5.3.9]
+	at org.springframework.context.support.AbstractApplicationContext.obtainFreshBeanFactory(AbstractApplicationContext.java:671) ~[spring-context-5.3.9.jar!/:5.3.9]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:553) ~[spring-context-5.3.9.jar!/:5.3.9]
+	at org.springframework.web.servlet.FrameworkServlet.configureAndRefreshWebApplicationContext(FrameworkServlet.java:702) ~[spring-webmvc-5.3.9.jar!/:5.3.9]
+	at org.springframework.web.servlet.FrameworkServlet.createWebApplicationContext(FrameworkServlet.java:668) ~[spring-webmvc-5.3.9.jar!/:5.3.9]
+	at org.springframework.web.servlet.FrameworkServlet.createWebApplicationContext(FrameworkServlet.java:716) ~[spring-webmvc-5.3.9.jar!/:5.3.9]
+	at org.springframework.web.servlet.FrameworkServlet.initWebApplicationContext(FrameworkServlet.java:591) ~[spring-webmvc-5.3.9.jar!/:5.3.9]
+	at org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:530) ~[spring-webmvc-5.3.9.jar!/:5.3.9]
+	at org.springframework.web.servlet.HttpServletBean.init(HttpServletBean.java:170) ~[spring-webmvc-5.3.9.jar!/:5.3.9]
+	at javax.servlet.GenericServlet.init(GenericServlet.java:158) ~[tomcat-embed-core-9.0.50.jar!/:na]
+	at org.apache.catalina.core.StandardWrapper.initServlet(StandardWrapper.java:1143) ~[tomcat-embed-core-9.0.50.jar!/:na]
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1096) ~[tomcat-embed-core-9.0.50.jar!/:na]
+	at org.apache.catalina.core.StandardWrapper.allocate(StandardWrapper.java:767) ~[tomcat-embed-core-9.0.50.jar!/:na]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:133) ~[tomcat-embed-core-9.0.50.jar!/:na]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97) ~[tomcat-embed-core-9.0.50.jar!/:na]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542) ~[tomcat-embed-core-9.0.50.jar!/:na]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143) ~[tomcat-embed-core-9.0.50.jar!/:na]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) ~[tomcat-embed-core-9.0.50.jar!/:na]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) ~[tomcat-embed-core-9.0.50.jar!/:na]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357) ~[tomcat-embed-core-9.0.50.jar!/:na]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382) ~[tomcat-embed-core-9.0.50.jar!/:na]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) ~[tomcat-embed-core-9.0.50.jar!/:na]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893) ~[tomcat-embed-core-9.0.50.jar!/:na]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1723) ~[tomcat-embed-core-9.0.50.jar!/:na]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) ~[tomcat-embed-core-9.0.50.jar!/:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) ~[na:na]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.50.jar!/:na]
+	at java.base/java.lang.Thread.run(Thread.java:830) ~[na:na]
+
+2021-10-03 20:42:24.657  INFO 30143 --- [io-9000-exec-20] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-10-03 20:42:24.657 ERROR 30143 --- [io-9000-exec-20] o.s.web.servlet.DispatcherServlet        : Context initialization failed
+
+java.lang.IllegalStateException: The resources may not be accessed if they are not currently started
+	at org.apache.catalina.webresources.StandardRoot.validate(StandardRoot.java:246) ~[tomcat-embed-core-9.0.50.jar!/:na]
+	at org.apache.catalina.webresources.StandardRoot.getResource(StandardRoot.java:212) ~[tomcat-embed-core-9.0.50.jar!/:na]
+	at org.apache.catalina.webresources.StandardRoot.getResource(StandardRoot.java:206) ~[tomcat-embed-core-9.0.50.jar!/:na]
+	at org.apache.catalina.core.ApplicationContext.getResourceAsStream(ApplicationContext.java:561) ~[tomcat-embed-core-9.0.50.jar!/:na]
+	at org.apache.catalina.core.ApplicationContextFacade.getResourceAsStream(ApplicationContextFacade.java:214) ~[tomcat-embed-core-9.0.50.jar!/:na]
+	at org.springframework.web.context.support.ServletContextResource.getInputStream(ServletContextResource.java:157) ~[spring-web-5.3.9.jar!/:5.3.9]
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:333) ~[spring-beans-5.3.9.jar!/:5.3.9]
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:310) ~[spring-beans-5.3.9.jar!/:5.3.9]
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:188) ~[spring-beans-5.3.9.jar!/:5.3.9]
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:224) ~[spring-beans-5.3.9.jar!/:5.3.9]
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:195) ~[spring-beans-5.3.9.jar!/:5.3.9]
+	at org.springframework.web.context.support.XmlWebApplicationContext.loadBeanDefinitions(XmlWebApplicationContext.java:125) ~[spring-web-5.3.9.jar!/:5.3.9]
+	at org.springframework.web.context.support.XmlWebApplicationContext.loadBeanDefinitions(XmlWebApplicationContext.java:94) ~[spring-web-5.3.9.jar!/:5.3.9]
+	at org.springframework.context.support.AbstractRefreshableApplicationContext.refreshBeanFactory(AbstractRefreshableApplicationContext.java:130) ~[spring-context-5.3.9.jar!/:5.3.9]
+	at org.springframework.context.support.AbstractApplicationContext.obtainFreshBeanFactory(AbstractApplicationContext.java:671) ~[spring-context-5.3.9.jar!/:5.3.9]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:553) ~[spring-context-5.3.9.jar!/:5.3.9]
+	at org.springframework.web.servlet.FrameworkServlet.configureAndRefreshWebApplicationContext(FrameworkServlet.java:702) ~[spring-webmvc-5.3.9.jar!/:5.3.9]
+	at org.springframework.web.servlet.FrameworkServlet.createWebApplicationContext(FrameworkServlet.java:668) ~[spring-webmvc-5.3.9.jar!/:5.3.9]
+	at org.springframework.web.servlet.FrameworkServlet.createWebApplicationContext(FrameworkServlet.java:716) ~[spring-webmvc-5.3.9.jar!/:5.3.9]
+	at org.springframework.web.servlet.FrameworkServlet.initWebApplicationContext(FrameworkServlet.java:591) ~[spring-webmvc-5.3.9.jar!/:5.3.9]
+	at org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:530) ~[spring-webmvc-5.3.9.jar!/:5.3.9]
+	at org.springframework.web.servlet.HttpServletBean.init(HttpServletBean.java:170) ~[spring-webmvc-5.3.9.jar!/:5.3.9]
+	at javax.servlet.GenericServlet.init(GenericServlet.java:158) ~[tomcat-embed-core-9.0.50.jar!/:na]
+	at org.apache.catalina.core.StandardWrapper.initServlet(StandardWrapper.java:1143) ~[tomcat-embed-core-9.0.50.jar!/:na]
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1096) ~[tomcat-embed-core-9.0.50.jar!/:na]
+	at org.apache.catalina.core.StandardWrapper.allocate(StandardWrapper.java:767) ~[tomcat-embed-core-9.0.50.jar!/:na]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:133) ~[tomcat-embed-core-9.0.50.jar!/:na]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97) ~[tomcat-embed-core-9.0.50.jar!/:na]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542) ~[tomcat-embed-core-9.0.50.jar!/:na]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143) ~[tomcat-embed-core-9.0.50.jar!/:na]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) ~[tomcat-embed-core-9.0.50.jar!/:na]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) ~[tomcat-embed-core-9.0.50.jar!/:na]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357) ~[tomcat-embed-core-9.0.50.jar!/:na]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382) ~[tomcat-embed-core-9.0.50.jar!/:na]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) ~[tomcat-embed-core-9.0.50.jar!/:na]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893) ~[tomcat-embed-core-9.0.50.jar!/:na]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1723) ~[tomcat-embed-core-9.0.50.jar!/:na]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) ~[tomcat-embed-core-9.0.50.jar!/:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) ~[na:na]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.50.jar!/:na]
+	at java.base/java.lang.Thread.run(Thread.java:830) ~[na:na]
+
+2021-10-03 20:42:24.658  INFO 30143 --- [io-9000-exec-16] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-10-03 20:42:24.659 ERROR 30143 --- [io-9000-exec-16] o.s.web.servlet.DispatcherServlet        : Context initialization failed
+
+java.lang.IllegalStateException: The resources may not be accessed if they are not currently started
+	at org.apache.catalina.webresources.StandardRoot.validate(StandardRoot.java:246) ~[tomcat-embed-core-9.0.50.jar!/:na]
+	at org.apache.catalina.webresources.StandardRoot.getResource(StandardRoot.java:212) ~[tomcat-embed-core-9.0.50.jar!/:na]
+	at org.apache.catalina.webresources.StandardRoot.getResource(StandardRoot.java:206) ~[tomcat-embed-core-9.0.50.jar!/:na]
+	at org.apache.catalina.core.ApplicationContext.getResourceAsStream(ApplicationContext.java:561) ~[tomcat-embed-core-9.0.50.jar!/:na]
+	at org.apache.catalina.core.ApplicationContextFacade.getResourceAsStream(ApplicationContextFacade.java:214) ~[tomcat-embed-core-9.0.50.jar!/:na]
+	at org.springframework.web.context.support.ServletContextResource.getInputStream(ServletContextResource.java:157) ~[spring-web-5.3.9.jar!/:5.3.9]
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:333) ~[spring-beans-5.3.9.jar!/:5.3.9]
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:310) ~[spring-beans-5.3.9.jar!/:5.3.9]
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:188) ~[spring-beans-5.3.9.jar!/:5.3.9]
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:224) ~[spring-beans-5.3.9.jar!/:5.3.9]
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:195) ~[spring-beans-5.3.9.jar!/:5.3.9]
+	at org.springframework.web.context.support.XmlWebApplicationContext.loadBeanDefinitions(XmlWebApplicationContext.java:125) ~[spring-web-5.3.9.jar!/:5.3.9]
+	at org.springframework.web.context.support.XmlWebApplicationContext.loadBeanDefinitions(XmlWebApplicationContext.java:94) ~[spring-web-5.3.9.jar!/:5.3.9]
+	at org.springframework.context.support.AbstractRefreshableApplicationContext.refreshBeanFactory(AbstractRefreshableApplicationContext.java:130) ~[spring-context-5.3.9.jar!/:5.3.9]
+	at org.springframework.context.support.AbstractApplicationContext.obtainFreshBeanFactory(AbstractApplicationContext.java:671) ~[spring-context-5.3.9.jar!/:5.3.9]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:553) ~[spring-context-5.3.9.jar!/:5.3.9]
+	at org.springframework.web.servlet.FrameworkServlet.configureAndRefreshWebApplicationContext(FrameworkServlet.java:702) ~[spring-webmvc-5.3.9.jar!/:5.3.9]
+	at org.springframework.web.servlet.FrameworkServlet.createWebApplicationContext(FrameworkServlet.java:668) ~[spring-webmvc-5.3.9.jar!/:5.3.9]
+	at org.springframework.web.servlet.FrameworkServlet.createWebApplicationContext(FrameworkServlet.java:716) ~[spring-webmvc-5.3.9.jar!/:5.3.9]
+	at org.springframework.web.servlet.FrameworkServlet.initWebApplicationContext(FrameworkServlet.java:591) ~[spring-webmvc-5.3.9.jar!/:5.3.9]
+	at org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:530) ~[spring-webmvc-5.3.9.jar!/:5.3.9]
+	at org.springframework.web.servlet.HttpServletBean.init(HttpServletBean.java:170) ~[spring-webmvc-5.3.9.jar!/:5.3.9]
+	at javax.servlet.GenericServlet.init(GenericServlet.java:158) ~[tomcat-embed-core-9.0.50.jar!/:na]
+	at org.apache.catalina.core.StandardWrapper.initServlet(StandardWrapper.java:1143) ~[tomcat-embed-core-9.0.50.jar!/:na]
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1096) ~[tomcat-embed-core-9.0.50.jar!/:na]
+	at org.apache.catalina.core.StandardWrapper.allocate(StandardWrapper.java:767) ~[tomcat-embed-core-9.0.50.jar!/:na]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:133) ~[tomcat-embed-core-9.0.50.jar!/:na]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97) ~[tomcat-embed-core-9.0.50.jar!/:na]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542) ~[tomcat-embed-core-9.0.50.jar!/:na]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143) ~[tomcat-embed-core-9.0.50.jar!/:na]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) ~[tomcat-embed-core-9.0.50.jar!/:na]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) ~[tomcat-embed-core-9.0.50.jar!/:na]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357) ~[tomcat-embed-core-9.0.50.jar!/:na]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382) ~[tomcat-embed-core-9.0.50.jar!/:na]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) ~[tomcat-embed-core-9.0.50.jar!/:na]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893) ~[tomcat-embed-core-9.0.50.jar!/:na]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1723) ~[tomcat-embed-core-9.0.50.jar!/:na]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) ~[tomcat-embed-core-9.0.50.jar!/:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) ~[na:na]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.50.jar!/:na]
+	at java.base/java.lang.Thread.run(Thread.java:830) ~[na:na]
+
+2021-10-03 20:42:24.660  INFO 30143 --- [nio-9000-exec-9] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-10-03 20:42:24.663 ERROR 30143 --- [nio-9000-exec-9] o.s.web.servlet.DispatcherServlet        : Context initialization failed
+
+java.lang.IllegalStateException: The resources may not be accessed if they are not currently started
+	at org.apache.catalina.webresources.StandardRoot.validate(StandardRoot.java:246) ~[tomcat-embed-core-9.0.50.jar!/:na]
+	at org.apache.catalina.webresources.StandardRoot.getResource(StandardRoot.java:212) ~[tomcat-embed-core-9.0.50.jar!/:na]
+	at org.apache.catalina.webresources.StandardRoot.getResource(StandardRoot.java:206) ~[tomcat-embed-core-9.0.50.jar!/:na]
+	at org.apache.catalina.core.ApplicationContext.getResourceAsStream(ApplicationContext.java:561) ~[tomcat-embed-core-9.0.50.jar!/:na]
+	at org.apache.catalina.core.ApplicationContextFacade.getResourceAsStream(ApplicationContextFacade.java:214) ~[tomcat-embed-core-9.0.50.jar!/:na]
+	at org.springframework.web.context.support.ServletContextResource.getInputStream(ServletContextResource.java:157) ~[spring-web-5.3.9.jar!/:5.3.9]
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:333) ~[spring-beans-5.3.9.jar!/:5.3.9]
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:310) ~[spring-beans-5.3.9.jar!/:5.3.9]
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:188) ~[spring-beans-5.3.9.jar!/:5.3.9]
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:224) ~[spring-beans-5.3.9.jar!/:5.3.9]
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:195) ~[spring-beans-5.3.9.jar!/:5.3.9]
+	at org.springframework.web.context.support.XmlWebApplicationContext.loadBeanDefinitions(XmlWebApplicationContext.java:125) ~[spring-web-5.3.9.jar!/:5.3.9]
+	at org.springframework.web.context.support.XmlWebApplicationContext.loadBeanDefinitions(XmlWebApplicationContext.java:94) ~[spring-web-5.3.9.jar!/:5.3.9]
+	at org.springframework.context.support.AbstractRefreshableApplicationContext.refreshBeanFactory(AbstractRefreshableApplicationContext.java:130) ~[spring-context-5.3.9.jar!/:5.3.9]
+	at org.springframework.context.support.AbstractApplicationContext.obtainFreshBeanFactory(AbstractApplicationContext.java:671) ~[spring-context-5.3.9.jar!/:5.3.9]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:553) ~[spring-context-5.3.9.jar!/:5.3.9]
+	at org.springframework.web.servlet.FrameworkServlet.configureAndRefreshWebApplicationContext(FrameworkServlet.java:702) ~[spring-webmvc-5.3.9.jar!/:5.3.9]
+	at org.springframework.web.servlet.FrameworkServlet.createWebApplicationContext(FrameworkServlet.java:668) ~[spring-webmvc-5.3.9.jar!/:5.3.9]
+	at org.springframework.web.servlet.FrameworkServlet.createWebApplicationContext(FrameworkServlet.java:716) ~[spring-webmvc-5.3.9.jar!/:5.3.9]
+	at org.springframework.web.servlet.FrameworkServlet.initWebApplicationContext(FrameworkServlet.java:591) ~[spring-webmvc-5.3.9.jar!/:5.3.9]
+	at org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:530) ~[spring-webmvc-5.3.9.jar!/:5.3.9]
+	at org.springframework.web.servlet.HttpServletBean.init(HttpServletBean.java:170) ~[spring-webmvc-5.3.9.jar!/:5.3.9]
+	at javax.servlet.GenericServlet.init(GenericServlet.java:158) ~[tomcat-embed-core-9.0.50.jar!/:na]
+	at org.apache.catalina.core.StandardWrapper.initServlet(StandardWrapper.java:1143) ~[tomcat-embed-core-9.0.50.jar!/:na]
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1096) ~[tomcat-embed-core-9.0.50.jar!/:na]
+	at org.apache.catalina.core.StandardWrapper.allocate(StandardWrapper.java:767) ~[tomcat-embed-core-9.0.50.jar!/:na]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:133) ~[tomcat-embed-core-9.0.50.jar!/:na]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97) ~[tomcat-embed-core-9.0.50.jar!/:na]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542) ~[tomcat-embed-core-9.0.50.jar!/:na]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143) ~[tomcat-embed-core-9.0.50.jar!/:na]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) ~[tomcat-embed-core-9.0.50.jar!/:na]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) ~[tomcat-embed-core-9.0.50.jar!/:na]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357) ~[tomcat-embed-core-9.0.50.jar!/:na]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382) ~[tomcat-embed-core-9.0.50.jar!/:na]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) ~[tomcat-embed-core-9.0.50.jar!/:na]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893) ~[tomcat-embed-core-9.0.50.jar!/:na]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1723) ~[tomcat-embed-core-9.0.50.jar!/:na]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) ~[tomcat-embed-core-9.0.50.jar!/:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) ~[na:na]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.50.jar!/:na]
+	at java.base/java.lang.Thread.run(Thread.java:830) ~[na:na]
+
+2021-10-03 20:42:24.665  INFO 30143 --- [io-9000-exec-14] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-10-03 20:42:24.666 ERROR 30143 --- [io-9000-exec-14] o.s.web.servlet.DispatcherServlet        : Context initialization failed
+
+java.lang.IllegalStateException: The resources may not be accessed if they are not currently started
+	at org.apache.catalina.webresources.StandardRoot.validate(StandardRoot.java:246) ~[tomcat-embed-core-9.0.50.jar!/:na]
+	at org.apache.catalina.webresources.StandardRoot.getResource(StandardRoot.java:212) ~[tomcat-embed-core-9.0.50.jar!/:na]
+	at org.apache.catalina.webresources.StandardRoot.getResource(StandardRoot.java:206) ~[tomcat-embed-core-9.0.50.jar!/:na]
+	at org.apache.catalina.core.ApplicationContext.getResourceAsStream(ApplicationContext.java:561) ~[tomcat-embed-core-9.0.50.jar!/:na]
+	at org.apache.catalina.core.ApplicationContextFacade.getResourceAsStream(ApplicationContextFacade.java:214) ~[tomcat-embed-core-9.0.50.jar!/:na]
+	at org.springframework.web.context.support.ServletContextResource.getInputStream(ServletContextResource.java:157) ~[spring-web-5.3.9.jar!/:5.3.9]
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:333) ~[spring-beans-5.3.9.jar!/:5.3.9]
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:310) ~[spring-beans-5.3.9.jar!/:5.3.9]
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:188) ~[spring-beans-5.3.9.jar!/:5.3.9]
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:224) ~[spring-beans-5.3.9.jar!/:5.3.9]
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:195) ~[spring-beans-5.3.9.jar!/:5.3.9]
+	at org.springframework.web.context.support.XmlWebApplicationContext.loadBeanDefinitions(XmlWebApplicationContext.java:125) ~[spring-web-5.3.9.jar!/:5.3.9]
+	at org.springframework.web.context.support.XmlWebApplicationContext.loadBeanDefinitions(XmlWebApplicationContext.java:94) ~[spring-web-5.3.9.jar!/:5.3.9]
+	at org.springframework.context.support.AbstractRefreshableApplicationContext.refreshBeanFactory(AbstractRefreshableApplicationContext.java:130) ~[spring-context-5.3.9.jar!/:5.3.9]
+	at org.springframework.context.support.AbstractApplicationContext.obtainFreshBeanFactory(AbstractApplicationContext.java:671) ~[spring-context-5.3.9.jar!/:5.3.9]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:553) ~[spring-context-5.3.9.jar!/:5.3.9]
+	at org.springframework.web.servlet.FrameworkServlet.configureAndRefreshWebApplicationContext(FrameworkServlet.java:702) ~[spring-webmvc-5.3.9.jar!/:5.3.9]
+	at org.springframework.web.servlet.FrameworkServlet.createWebApplicationContext(FrameworkServlet.java:668) ~[spring-webmvc-5.3.9.jar!/:5.3.9]
+	at org.springframework.web.servlet.FrameworkServlet.createWebApplicationContext(FrameworkServlet.java:716) ~[spring-webmvc-5.3.9.jar!/:5.3.9]
+	at org.springframework.web.servlet.FrameworkServlet.initWebApplicationContext(FrameworkServlet.java:591) ~[spring-webmvc-5.3.9.jar!/:5.3.9]
+	at org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:530) ~[spring-webmvc-5.3.9.jar!/:5.3.9]
+	at org.springframework.web.servlet.HttpServletBean.init(HttpServletBean.java:170) ~[spring-webmvc-5.3.9.jar!/:5.3.9]
+	at javax.servlet.GenericServlet.init(GenericServlet.java:158) ~[tomcat-embed-core-9.0.50.jar!/:na]
+	at org.apache.catalina.core.StandardWrapper.initServlet(StandardWrapper.java:1143) ~[tomcat-embed-core-9.0.50.jar!/:na]
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1096) ~[tomcat-embed-core-9.0.50.jar!/:na]
+	at org.apache.catalina.core.StandardWrapper.allocate(StandardWrapper.java:767) ~[tomcat-embed-core-9.0.50.jar!/:na]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:133) ~[tomcat-embed-core-9.0.50.jar!/:na]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97) ~[tomcat-embed-core-9.0.50.jar!/:na]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542) ~[tomcat-embed-core-9.0.50.jar!/:na]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143) ~[tomcat-embed-core-9.0.50.jar!/:na]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) ~[tomcat-embed-core-9.0.50.jar!/:na]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) ~[tomcat-embed-core-9.0.50.jar!/:na]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357) ~[tomcat-embed-core-9.0.50.jar!/:na]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382) ~[tomcat-embed-core-9.0.50.jar!/:na]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) ~[tomcat-embed-core-9.0.50.jar!/:na]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893) ~[tomcat-embed-core-9.0.50.jar!/:na]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1723) ~[tomcat-embed-core-9.0.50.jar!/:na]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) ~[tomcat-embed-core-9.0.50.jar!/:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) ~[na:na]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.50.jar!/:na]
+	at java.base/java.lang.Thread.run(Thread.java:830) ~[na:na]
+
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v2.5.3)
+
+2021-10-03 20:58:17.978  INFO 4361 --- [           main] c.s.u.scheduling.SchedulingApplication   : Starting SchedulingApplication v0.0.1-SNAPSHOT using Java 13.0.2 on HeinHtet-PC with PID 4361 (/home/heinhtet/Desktop/UPC_APLAS/scheduling-0.0.1-SNAPSHOT.jar started by root in /home/heinhtet/Desktop/UPC_APLAS)
+2021-10-03 20:58:17.982  INFO 4361 --- [           main] c.s.u.scheduling.SchedulingApplication   : No active profile set, falling back to default profiles: default
+2021-10-03 20:58:19.142  INFO 4361 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9000 (http)
+2021-10-03 20:58:19.155  INFO 4361 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-10-03 20:58:19.156  INFO 4361 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.50]
+2021-10-03 20:58:19.222  INFO 4361 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-10-03 20:58:19.223  INFO 4361 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1158 ms
+2021-10-03 20:58:19.638  INFO 4361 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9000 (http) with context path ''
+2021-10-03 20:58:19.650  INFO 4361 --- [           main] c.s.u.scheduling.SchedulingApplication   : Started SchedulingApplication in 2.225 seconds (JVM running for 2.784)
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v2.5.3)
+
+2021-10-03 21:14:27.545  INFO 11281 --- [           main] c.s.u.scheduling.SchedulingApplication   : Starting SchedulingApplication v0.0.1-SNAPSHOT using Java 13.0.2 on HeinHtet-PC with PID 11281 (/home/heinhtet/Desktop/UPC_APLAS/scheduling-0.0.1-SNAPSHOT.jar started by root in /home/heinhtet/Desktop/UPC_APLAS)
+2021-10-03 21:14:27.547  INFO 11281 --- [           main] c.s.u.scheduling.SchedulingApplication   : No active profile set, falling back to default profiles: default
+2021-10-03 21:14:28.538  INFO 11281 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9000 (http)
+2021-10-03 21:14:28.560  INFO 11281 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-10-03 21:14:28.560  INFO 11281 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.50]
+2021-10-03 21:14:28.615  INFO 11281 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-10-03 21:14:28.615  INFO 11281 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1007 ms
+2021-10-03 21:14:29.001  INFO 11281 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9000 (http) with context path ''
+2021-10-03 21:14:29.012  INFO 11281 --- [           main] c.s.u.scheduling.SchedulingApplication   : Started SchedulingApplication in 1.981 seconds (JVM running for 2.456)
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v2.5.3)
+
+2021-10-03 21:17:08.620  INFO 12235 --- [           main] c.s.u.scheduling.SchedulingApplication   : Starting SchedulingApplication v0.0.1-SNAPSHOT using Java 13.0.2 on HeinHtet-PC with PID 12235 (/home/heinhtet/Desktop/UPC_APLAS/scheduling-0.0.1-SNAPSHOT.jar started by root in /home/heinhtet/Desktop/UPC_APLAS)
+2021-10-03 21:17:08.623  INFO 12235 --- [           main] c.s.u.scheduling.SchedulingApplication   : No active profile set, falling back to default profiles: default
+2021-10-03 21:17:09.658  INFO 12235 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9000 (http)
+2021-10-03 21:17:09.671  INFO 12235 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-10-03 21:17:09.671  INFO 12235 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.50]
+2021-10-03 21:17:09.745  INFO 12235 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-10-03 21:17:09.746  INFO 12235 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1040 ms
+2021-10-03 21:17:10.142  INFO 12235 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9000 (http) with context path ''
+2021-10-03 21:17:10.153  INFO 12235 --- [           main] c.s.u.scheduling.SchedulingApplication   : Started SchedulingApplication in 2.075 seconds (JVM running for 2.563)
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v2.5.3)
+
+2021-10-03 21:17:50.683  INFO 12608 --- [           main] c.s.u.scheduling.SchedulingApplication   : Starting SchedulingApplication v0.0.1-SNAPSHOT using Java 13.0.2 on HeinHtet-PC with PID 12608 (/home/heinhtet/Desktop/UPC_APLAS/scheduling-0.0.1-SNAPSHOT.jar started by root in /home/heinhtet/Desktop/UPC_APLAS)
+2021-10-03 21:17:50.686  INFO 12608 --- [           main] c.s.u.scheduling.SchedulingApplication   : No active profile set, falling back to default profiles: default
+2021-10-03 21:17:51.714  INFO 12608 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9000 (http)
+2021-10-03 21:17:51.726  INFO 12608 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-10-03 21:17:51.727  INFO 12608 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.50]
+2021-10-03 21:17:51.794  INFO 12608 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-10-03 21:17:51.794  INFO 12608 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1012 ms
+2021-10-03 21:17:52.187  INFO 12608 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9000 (http) with context path ''
+2021-10-03 21:17:52.197  INFO 12608 --- [           main] c.s.u.scheduling.SchedulingApplication   : Started SchedulingApplication in 2.1 seconds (JVM running for 2.567)
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v2.5.3)
+
+2021-10-03 21:28:04.304  INFO 4145 --- [           main] c.s.u.scheduling.SchedulingApplication   : Starting SchedulingApplication v0.0.1-SNAPSHOT using Java 13.0.2 on HeinHtet-PC with PID 4145 (/home/heinhtet/Desktop/UPC_APLAS/scheduling-0.0.1-SNAPSHOT.jar started by root in /home/heinhtet/Desktop/UPC_APLAS)
+2021-10-03 21:28:04.307  INFO 4145 --- [           main] c.s.u.scheduling.SchedulingApplication   : No active profile set, falling back to default profiles: default
+2021-10-03 21:28:05.486  INFO 4145 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9000 (http)
+2021-10-03 21:28:05.501  INFO 4145 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-10-03 21:28:05.501  INFO 4145 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.50]
+2021-10-03 21:28:05.572  INFO 4145 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-10-03 21:28:05.573  INFO 4145 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1194 ms
+2021-10-03 21:28:05.994  INFO 4145 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9000 (http) with context path ''
+2021-10-03 21:28:06.005  INFO 4145 --- [           main] c.s.u.scheduling.SchedulingApplication   : Started SchedulingApplication in 2.341 seconds (JVM running for 2.898)
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v2.5.3)
+
+2021-10-03 21:32:04.913  INFO 5863 --- [           main] c.s.u.scheduling.SchedulingApplication   : Starting SchedulingApplication v0.0.1-SNAPSHOT using Java 13.0.2 on HeinHtet-PC with PID 5863 (/home/heinhtet/Desktop/UPC_APLAS/scheduling-0.0.1-SNAPSHOT.jar started by root in /home/heinhtet/Desktop/UPC_APLAS)
+2021-10-03 21:32:04.915  INFO 5863 --- [           main] c.s.u.scheduling.SchedulingApplication   : No active profile set, falling back to default profiles: default
+2021-10-03 21:32:05.933  INFO 5863 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9000 (http)
+2021-10-03 21:32:05.945  INFO 5863 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-10-03 21:32:05.945  INFO 5863 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.50]
+2021-10-03 21:32:06.002  INFO 5863 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-10-03 21:32:06.002  INFO 5863 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1030 ms
+2021-10-03 21:32:06.410  INFO 5863 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9000 (http) with context path ''
+2021-10-03 21:32:06.422  INFO 5863 --- [           main] c.s.u.scheduling.SchedulingApplication   : Started SchedulingApplication in 1.978 seconds (JVM running for 2.403)
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v2.5.3)
+
+2021-10-04 14:28:26.374  INFO 32138 --- [           main] c.s.u.scheduling.SchedulingApplication   : Starting SchedulingApplication v0.0.1-SNAPSHOT using Java 13.0.2 on HeinHtet-PC with PID 32138 (/home/heinhtet/Desktop/UPC_APLAS/scheduling-0.0.1-SNAPSHOT.jar started by root in /home/heinhtet/Desktop/UPC_APLAS)
+2021-10-04 14:28:26.377  INFO 32138 --- [           main] c.s.u.scheduling.SchedulingApplication   : No active profile set, falling back to default profiles: default
+2021-10-04 14:28:27.507  INFO 32138 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9000 (http)
+2021-10-04 14:28:27.519  INFO 32138 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-10-04 14:28:27.519  INFO 32138 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.50]
+2021-10-04 14:28:27.579  INFO 32138 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-10-04 14:28:27.579  INFO 32138 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1096 ms
+2021-10-04 14:28:27.975  INFO 32138 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9000 (http) with context path ''
+2021-10-04 14:28:27.987  INFO 32138 --- [           main] c.s.u.scheduling.SchedulingApplication   : Started SchedulingApplication in 2.194 seconds (JVM running for 2.66)
+2021-10-04 14:29:49.485  INFO 32138 --- [nio-9000-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-10-04 14:29:49.486  INFO 32138 --- [nio-9000-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-10-04 14:29:49.487  INFO 32138 --- [nio-9000-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-10-04 14:29:49.600  INFO 32138 --- [nio-9000-exec-1] c.s.u.s.s.AplasSchedulingServiceImpl     : The amount is zero.
+2021-10-04 14:29:49.600  INFO 32138 --- [nio-9000-exec-1] c.s.u.s.s.AplasSchedulingServiceImpl     : The amount is zero.
+2021-10-04 14:29:49.600  INFO 32138 --- [nio-9000-exec-1] c.s.u.s.s.AplasSchedulingServiceImpl     : The amount is zero.
+2021-10-04 14:29:49.600  INFO 32138 --- [nio-9000-exec-1] c.s.u.s.s.AplasSchedulingServiceImpl     : The amount is zero.
+2021-10-04 14:29:49.600  INFO 32138 --- [nio-9000-exec-1] c.s.u.s.s.AplasSchedulingServiceImpl     : The amount is zero.
+2021-10-04 14:29:49.603  INFO 32138 --- [nio-9000-exec-1] c.s.u.s.s.AplasSchedulingServiceImpl     : S-1 PC-6 Amount: 18
+2021-10-04 14:29:49.603  INFO 32138 --- [nio-9000-exec-1] c.s.u.s.s.AplasSchedulingServiceImpl     : S-1 PC-5 Amount: 12
+2021-10-04 14:29:49.603  INFO 32138 --- [nio-9000-exec-1] c.s.u.s.s.AplasSchedulingServiceImpl     : S-1 PC-4 Amount: 8
+2021-10-04 14:29:49.603  INFO 32138 --- [nio-9000-exec-1] c.s.u.s.s.AplasSchedulingServiceImpl     : S-1 PC-3 Amount: 3
+2021-10-04 14:29:49.603  INFO 32138 --- [nio-9000-exec-1] c.s.u.s.s.AplasSchedulingServiceImpl     : S-1 PC-6 Turns: 3
+2021-10-04 14:29:49.603  INFO 32138 --- [nio-9000-exec-1] c.s.u.s.s.AplasSchedulingServiceImpl     : S-1 PC-5 Turns: 3
+2021-10-04 14:29:49.603  INFO 32138 --- [nio-9000-exec-1] c.s.u.s.s.AplasSchedulingServiceImpl     : S-1 PC-4 Turns: 2
+2021-10-04 14:29:49.603  INFO 32138 --- [nio-9000-exec-1] c.s.u.s.s.AplasSchedulingServiceImpl     : S-1 PC-3 Turns: 3
+2021-10-04 14:29:49.603  INFO 32138 --- [nio-9000-exec-1] c.s.u.s.s.AplasSchedulingServiceImpl     : S-1 PC-6 Processing Time: 132 Seconds
+2021-10-04 14:29:49.603  INFO 32138 --- [nio-9000-exec-1] c.s.u.s.s.AplasSchedulingServiceImpl     : S-1 PC-5 Processing Time: 138 Seconds
+2021-10-04 14:29:49.603  INFO 32138 --- [nio-9000-exec-1] c.s.u.s.s.AplasSchedulingServiceImpl     : S-1 PC-4 Processing Time: 126 Seconds
+2021-10-04 14:29:49.604  INFO 32138 --- [nio-9000-exec-1] c.s.u.s.s.AplasSchedulingServiceImpl     : S-1 PC-3 Processing Time: 129 Seconds

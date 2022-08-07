@@ -28,11 +28,24 @@
    - copy UPC_Client folder to the all the PCs that will be used as client nodes 
    (UPC_Client フォルダーを、クライアント ノードとして使用されるすべての PC にコピーします)
 ```
-### generate ns 3 simulator docker image
-(ns 3 シミュレーター docker イメージを生成する)
+### generate ns 3 simulator docker image (ns 3 シミュレーター docker イメージを生成する)
 ```
-```
+1. go to ns-3 docker directory under Nihon_Uni_UPC
+   (Nihon_Uni_UPC の下の ns-3 docker ディレクトリに移動します)
 
+2. run the following command to build the docker image.
+   (次のコマンドを実行して、docker イメージをビルドします)
+   $docker build -t pollen5005/nssimulationa:latest .
+
+3. save the built docker image
+   (ビルドした Docker イメージを保存する)
+   $docker save -o .nssimulationa pollen5005/nssimulationa:latest
+   
+*(I will explain how to prepare Dockerfile for building image.
+Then, you can modify it for future usage.)
+*(イメージをビルドするための Dockerfile の準備方法を説明します。
+その後、将来の使用のために変更できます。)
+```
 ### Things to do at Server PC (サーバーPCでできること)
 ```
 1. go to the Nihon_Uni_UPC directory

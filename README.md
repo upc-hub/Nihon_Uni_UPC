@@ -1,6 +1,6 @@
 # Nihon_Uni_UPC
 # To setup UPC system (UPCシステムをインストールするには),
-### Prerequisite (前提条件)
+### 1. Prerequisite (前提条件)
 ```
 1. install Docker on all PCs 
    (すべての PC に Docker をインストールする)
@@ -28,7 +28,7 @@
    - copy UPC_Client folder to the all the PCs that will be used as client nodes 
    (UPC_Client フォルダーを、クライアント ノードとして使用されるすべての PC にコピーします)
 ```
-### generate ns 3 simulator docker image (ns 3 シミュレーター docker イメージを生成する)
+### 2. generate ns 3 simulator docker image (ns 3 シミュレーター docker イメージを生成する)
 ```
 1. go to ns-3 docker directory under Nihon_Uni_UPC
    (Nihon_Uni_UPC の下の ns-3 docker ディレクトリに移動します)
@@ -49,7 +49,7 @@ Then, you can modify it for future usage.)
 *(イメージをビルドするための Dockerfile の準備方法を説明します。
 その後、将来の使用のために変更できます。)
 ```
-### Things to do at Server PC (サーバーPCでできること)
+### 3. Things to do at Server PC (サーバーPCでできること)
 ```
 1. go to the Nihon_Uni_UPC directory
    (Nihon_Uni_UPC ディレクトリに移動します)
@@ -93,7 +93,7 @@ Then, you can modify it for future usage.)
 10. download the results, when it is recevied from client PCs.
     (クライアント PC から受信した結果をダウンロードします。)
 ```
-### Things to do at Client PCs (クライアント PC で行うこと)
+### 4. Things to do at Client PCs (クライアント PC で行うこと)
 ```
 1. go to the UPC_Client directory
    (UPC_Client ディレクトリに移動します)

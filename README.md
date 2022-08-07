@@ -108,7 +108,7 @@ Then, you can modify it for future usage.)
    $python3 ./upc_client_v1.py
 ```
 ## UPC System Overview (UPC制度の概要)
--user-PC Computing System (UPC) is a computing platform for executing complex computation task using idel resources of user-PCs at laboratory.
+- user-PC Computing System (UPC) is a computing platform for executing complex computation task using idel resources of user-PCs at laboratory.
 (ユーザー PC コンピューティング システム (UPC) は、実験室でユーザー PC のアイドル リソースを使用して複雑な計算タスクを実行するためのコンピューティング プラットフォームです。)
 ![interface](https://user-images.githubusercontent.com/79504426/183276945-c8a0a311-fccd-4b89-8da3-b49f89b8b4dd.png)
 ## UPC System setup at Nihon Uni. (日本大学でのUPCシステムのセットアップ)

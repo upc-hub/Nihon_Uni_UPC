@@ -18,7 +18,7 @@
 ```
 ### Things to do at Server PC (サーバーPCでできること)
 ```
-**aa**
+__aa__
 
 ```
 ### Things to do at Client PCs (クライアント PC で行うこと)

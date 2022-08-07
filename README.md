@@ -1,7 +1,6 @@
 # Nihon_Uni_UPC
 # To setup UPC system (UPCシステムをインストールするには),
 ### 1. Prerequisite (前提条件)
-**install Docker on all PCs**install Docker on all PCs
 ```
 1. install Docker on all PCs 
    (すべての PC に Docker をインストールする)

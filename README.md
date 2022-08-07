@@ -63,7 +63,7 @@ Then, you can modify it for future usage.)
    
 3. download the upc web server docker image
    (upc Web サーバーの Docker イメージをダウンロードします)
-   $docker pull upc_web_server:latest
+   $docker pull pollen5005/upc_web_server:latest
 
 4. run the web_master_connection.sh
    (web_master_connection.sh を実行します)

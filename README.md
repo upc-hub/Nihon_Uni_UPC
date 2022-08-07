@@ -39,8 +39,12 @@
    - (サーバーとクライアントの IP アドレスは、環境に基づいて変更できます)
    *I already changed same environment at Nihon University
    *(は日本大学で同じ環境をすでに変えました)
+   
+3. download the upc web server docker image
+   (upc Web サーバーの Docker イメージをダウンロードします)
+   $docker pull upc_web_server:latest
 
-3. run the web_master_connection.sh
+4. run the web_master_connection.sh
    (web_master_connection.sh を実行します)
    $./web_master_connection.sh
    -web server will run at port 3000.
@@ -48,7 +52,11 @@
    -open the browser and type the following.
    -(ブラウザを開き、次のように入力します)
    >https://192.168.0.140:3000
-   **hein**
+
+5. run the master program
+   (マスタープログラムを実行する)
+   $python3 ./UPC_Master/master.py
+   
 ```
 ### Things to do at Client PCs (クライアント PC で行うこと)
 ```

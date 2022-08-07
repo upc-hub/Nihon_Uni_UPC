@@ -33,16 +33,17 @@
 1. go to the Nihon_Uni_UPC directory
    (Nihon_Uni_UPC ディレクトリに移動します)
 
+2. find master_worker_infor.json, open, and edit
+   (master_worker_infor.json を見つけて開き、編集します)
+   - server and clients's IP address can be changed based on your environment
+   - (サーバーとクライアントの IP アドレスは、環境に基づいて変更できます)
+
 ```
 ### Things to do at Client PCs (クライアント PC で行うこと)
 ```
 1. go to the UPC_Client directory
    (UPC_Client ディレクトリに移動します)
    
-2. find master_worker_infor.json, open, and edit
-   (master_worker_infor.json を見つけて開き、編集します)
-   - server and clients's IP address can be changed based on your environment
-   - (サーバーとクライアントの IP アドレスは、環境に基づいて変更できます)
 ```
 ### Start server with default port 1200
 ```

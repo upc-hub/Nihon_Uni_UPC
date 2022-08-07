@@ -2,7 +2,7 @@
 # To setup UPC system (UPCシステムをインストールするには),
 ### Prerequisite (前提条件)
 ```
-1. install Docker on all PCs (すべての PC に Docker をインストールする)
+1. install **Docker** on all PCs (すべての PC に Docker をインストールする)
    -https://docs.docker.com/engine/install/ubuntu/  (参考のため)
 2. install Python3 and pip on all PCs (すべての PC に Python3 と pip をインストールする)
    $sudo apt-get update

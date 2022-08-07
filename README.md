@@ -16,14 +16,13 @@
    $ls -al (UPC_Client フォルダーを見つける)
    - copy UPC_Client folder to the all the PCs that will be used as client nodes (UPC_Client フォルダーを、クライアント ノードとして使用されるすべての PC にコピーします)
 ```
-### Prerequisite
+### Things to do at Server PC (サーバーPCでできること)
 ```
-nodejs, NPM, and Python should be installed.
-For more details (necessary modules), check in the requirements.txt 
+
 ```
-### How to get the project
+### Things to do at Client PCs (クライアント PC で行うこと)
 ```
-Just download zip folder or clone the repo using git command on your system.
+
 ```
 ### Start server with default port 1200
 ```

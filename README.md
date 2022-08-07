@@ -104,6 +104,7 @@ Then, you can modify it for future usage.)
    -(サーバーPCのIPアドレスとクライアントPCのIPアドレスを与える)
 
 3. run the worker program
+   (ワーカー プログラムを実行する)
    $python3 ./upc_client_v1.py
 ```
 ## UPC Web Server

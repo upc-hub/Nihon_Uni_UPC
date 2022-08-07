@@ -1,7 +1,13 @@
 {
+	"web_server":[
+		{
+			"IP_address":"192.168.0.140",
+			"port":3000
+		}
+	],
 	"master":[
 		{
-			"IP_address":"172.28.235.18",
+			"IP_address":"192.168.0.140",
 			"port":2000,
 			"number of worker":6,
 			"port_periodic":2002
@@ -9,7 +15,7 @@
 	],
 	"worker-1":[
 		{
-			"IP_address":"172.28.235.226",
+			"IP_address":"192.168.0.130",
 			"max_threads":1,
 			"port":5001,
 			"port2":1600
@@ -17,7 +23,7 @@
 	],
 	"worker-2":[
 		{
-			"IP_address":"172.28.235.215",
+			"IP_address":"192.168.0.131",
 			"max_threads":1,
 			"port":5002,
 			"port2":1600
@@ -25,7 +31,7 @@
 	],
 	"worker-3":[
 		{
-			"IP_address":"172.28.235.211",
+			"IP_address":"192.168.0.132",
 			"max_threads":1,
 			"port":5003,
 			"port2":1600
@@ -33,7 +39,7 @@
 	],
 	"worker-4":[
 		{
-			"IP_address":"172.28.235.204",
+			"IP_address":"192.168.0.133",
 			"max_threads":4,
 			"port":5004,
 			"port2":1600
@@ -49,7 +55,7 @@
 	],
 	"worker-6":[
 		{
-			"IP_address":"172.28.235.209",
+			"IP_address":"192.168.0.135",
 			"max_threads":6,
 			"port":5006,
 			"port2":1600

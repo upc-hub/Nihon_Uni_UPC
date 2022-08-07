@@ -18,11 +18,11 @@
    -https://www.digitalocean.com/community/tutorials/how-to-use-sshfs-to-mount-remote-file-systems-over-ssh   
    (参考のため)
 
-3. download Nihon_Uni_UPC repository from github to server PC
+4. download Nihon_Uni_UPC repository from github to server PC
    (Nihon_Uni_UPC リポジトリを github からサーバー PC にダウンロードします。)
    $git clone https://github.com/upc-hub/Nihon_Uni_UPC
 
-4. go to the downloaded directory 
+5. go to the downloaded directory 
    (ダウンロードしたディレクトリに移動します)
    $ls -al (UPC_Client フォルダーを見つける)
    - copy UPC_Client folder to the all the PCs that will be used as client nodes 
@@ -30,11 +30,19 @@
 ```
 ### Things to do at Server PC (サーバーPCでできること)
 ```
+1. go to the Nihon_Uni_UPC directory
+   (Nihon_Uni_UPC ディレクトリに移動します)
 
 ```
 ### Things to do at Client PCs (クライアント PC で行うこと)
 ```
-
+1. go to the UPC_Client directory
+   (UPC_Client ディレクトリに移動します)
+   
+2. find master_worker_infor.json, open, and edit
+   (master_worker_infor.json を見つけて開き、編集します)
+   - server and clients's IP address can be changed based on your environment
+   - (サーバーとクライアントの IP アドレスは、環境に基づいて変更できます)
 ```
 ### Start server with default port 1200
 ```

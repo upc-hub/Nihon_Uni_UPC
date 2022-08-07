@@ -39,7 +39,10 @@
 
 3. save the built docker image
    (ビルドした Docker イメージを保存する)
-   $docker save -o .nssimulationa pollen5005/nssimulationa:latest
+   $docker save -o ./nssimulationa pollen5005/nssimulationa:latest
+   
+   -This nssimulationa will become a job in UPC system to execute at client PCs.
+   - この nssimulationa は、クライアント PC で実行する UPC システムのジョブになります。
    
 *(I will explain how to prepare Dockerfile for building image.
 Then, you can modify it for future usage.)
@@ -75,11 +78,27 @@ Then, you can modify it for future usage.)
    (マスタープログラムを実行する)
    $python3 ./UPC_Master/master.py
    
+6. go to jobs docker directory under Nihon_Uni_UPC
+   (Nihon_Uni_UPC の下の jobs ディレクトリに移動します)
+   
+7. see the schedule.csv file and modify for job assignment to client PCs
+   (schedule.csv ファイルを参照し、クライアント PC へのジョブ割り当て用に変更します)
+
+8. open the web interface https://192.168.0.140:3000 and upload the jobs to the web server 
+   (Web インターフェイス https://192.168.0.140:3000 を開き、ジョブを Web サーバーにアップロードします)
+   
+9. job status can be seen through web interface
+   (ジョブのステータスは Web インターフェイスから確認できます)
+
+10. download the results, when it is recevied from client PCs.
+    (クライアント PC から受信した結果をダウンロードします。)
 ```
 ### Things to do at Client PCs (クライアント PC で行うこと)
 ```
 1. go to the UPC_Client directory
    (UPC_Client ディレクトリに移動します)
+
+2. 
    
 ```
 ### Start server with default port 1200

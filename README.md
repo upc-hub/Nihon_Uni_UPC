@@ -2,23 +2,34 @@
 # To setup UPC system (UPCシステムをインストールするには),
 ### Prerequisite (前提条件)
 ```
-1. install Docker on all PCs (すべての PC に Docker をインストールする)
-   -https://docs.docker.com/engine/install/ubuntu/  (参考のため)
-2. install Python3 and pip on all PCs (すべての PC に Python3 と pip をインストールする)
+1. install Docker on all PCs 
+   (すべての PC に Docker をインストールする)
+   -https://docs.docker.com/engine/install/ubuntu/  
+   (参考のため)
+
+2. install Python3 and pip on all PCs 
+   (すべての PC に Python3 と pip をインストールする)
    $sudo apt-get update
    $sudo apt install python3-pip
-3. install sshfs on server PC (サーバー PC に sshfs をインストールする)
+
+3. install sshfs on server PC 
+   (サーバー PC に sshfs をインストールする)
    $sudo apt install sshfs
-   -https://www.digitalocean.com/community/tutorials/how-to-use-sshfs-to-mount-remote-file-systems-over-ssh   (参考のため)
-3. download Nihon_Uni_UPC repository from github to server PC(Nihon_Uni_UPC リポジトリを github からサーバー PC にダウンロードします。)
+   -https://www.digitalocean.com/community/tutorials/how-to-use-sshfs-to-mount-remote-file-systems-over-ssh   
+   (参考のため)
+
+3. download Nihon_Uni_UPC repository from github to server PC
+   (Nihon_Uni_UPC リポジトリを github からサーバー PC にダウンロードします。)
    $git clone https://github.com/upc-hub/Nihon_Uni_UPC
-4. go to the downloaded directory (ダウンロードしたディレクトリに移動します)
+
+4. go to the downloaded directory 
+   (ダウンロードしたディレクトリに移動します)
    $ls -al (UPC_Client フォルダーを見つける)
-   - copy UPC_Client folder to the all the PCs that will be used as client nodes (UPC_Client フォルダーを、クライアント ノードとして使用されるすべての PC にコピーします)
+   - copy UPC_Client folder to the all the PCs that will be used as client nodes 
+   (UPC_Client フォルダーを、クライアント ノードとして使用されるすべての PC にコピーします)
 ```
 ### Things to do at Server PC (サーバーPCでできること)
 ```
-__aa__
 
 ```
 ### Things to do at Client PCs (クライアント PC で行うこと)

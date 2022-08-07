@@ -108,8 +108,10 @@ Then, you can modify it for future usage.)
    $python3 ./upc_client_v1.py
 ```
 ## UPC System Overview (UPC制度の概要)
-- user-PC Computing System (UPC) is a computing platform for executing complex computation task using idel resources of user-PCs at laboratory.
+- user-PC Computing System (UPC) is a computing platform for executing complex computation project using idel resources of user-PCs at laboratory.
 (ユーザー PC コンピューティング システム (UPC) は、実験室でユーザー PC のアイドル リソースを使用して複雑な計算タスクを実行するためのコンピューティング プラットフォームです。)
+- Docker is used to run any computational project (job) to various computing platform (worker PCs).
+(Docker は、さまざまなコンピューティング プラットフォーム (ワーカー PC) に対して任意の計算プロジェクト (ジョブ) を実行するために使用されます。)
 ![interface](https://user-images.githubusercontent.com/79504426/183276945-c8a0a311-fccd-4b89-8da3-b49f89b8b4dd.png)
 ## UPC System setup at Nihon Uni. (日本大学でのUPCシステムのセットアップ)
 ![Nihon_Uni](https://user-images.githubusercontent.com/79504426/183277677-7c7d4165-55f7-4340-bc5f-b22cdef56827.png)

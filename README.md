@@ -105,24 +105,6 @@ Then, you can modify it for future usage.)
 
 3. run the worker program
    $python3 ./upc_client_v1.py
-   
-```
-### Start server with default port 1200
-```
--asdf
--asdf
-node server.js
-```
-### Start server with specific port 4200
-```
-node server.js 4200
-```
-### Open in browser, show download/upload UPC Web Server UI
-```
-e.g https://localhost:1200
-e.g https://your_server_ip:1200
-e.g https://your_server_ip:1200/APLAS
-e.g https://your_server_ip:1200/EPLAS
 ```
 ## UPC Web Server
 ![Picture11](https://user-images.githubusercontent.com/79504426/118064692-76a79700-b3d6-11eb-996c-3e35e58490c1.png)

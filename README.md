@@ -28,6 +28,11 @@
    - copy UPC_Client folder to the all the PCs that will be used as client nodes 
    (UPC_Client フォルダーを、クライアント ノードとして使用されるすべての PC にコピーします)
 ```
+### generate ns 3 simulator docker image
+(ns 3 シミュレーター docker イメージを生成する)
+```
+```
+
 ### Things to do at Server PC (サーバーPCでできること)
 ```
 1. go to the Nihon_Uni_UPC directory

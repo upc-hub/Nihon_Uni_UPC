@@ -2,7 +2,7 @@
 # To setup UPC system (UPCシステムをインストールするには),
 ### Prerequisite (前提条件)
 ```
-1. install ****Docker on all PCs (すべての PC に Docker をインストールする)
+1. install Docker on all PCs (すべての PC に Docker をインストールする)
    -https://docs.docker.com/engine/install/ubuntu/  (参考のため)
 2. install Python3 and pip on all PCs (すべての PC に Python3 と pip をインストールする)
    $sudo apt-get update
@@ -10,7 +10,7 @@
 3. install sshfs on server PC (サーバー PC に sshfs をインストールする)
    $sudo apt install sshfs
    -https://www.digitalocean.com/community/tutorials/how-to-use-sshfs-to-mount-remote-file-systems-over-ssh   (参考のため)
-3. download Nihon_Uni_UPC repository from github (github から Nihon_Uni_UPC リポジトリをダウンロード)
+3. download Nihon_Uni_UPC repository from github to server PC(Nihon_Uni_UPC リポジトリを github からサーバー PC にダウンロードします。)
    $git clone https://github.com/upc-hub/Nihon_Uni_UPC
 ```
 ### Prerequisite

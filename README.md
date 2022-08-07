@@ -98,7 +98,13 @@ Then, you can modify it for future usage.)
 1. go to the UPC_Client directory
    (UPC_Client ディレクトリに移動します)
 
-2. 
+2. find master_worker_info_client.json
+   (master_worker_info_client.json を見つける)
+   -give server PC's IP address and client PC's IP address
+   -(サーバーPCのIPアドレスとクライアントPCのIPアドレスを与える)
+
+3. run the worker program
+   $python3 ./upc_client_v1.py
    
 ```
 ### Start server with default port 1200

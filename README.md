@@ -1,11 +1,9 @@
 # Nihon_Uni_UPC
-# To setup UPC system,
-# UPCシステムをインストールするには
+# To setup UPC system (UPCシステムをインストールするには),
 ```
-1. install Docker on all PCs
-すべての PC に Docker をインストールする
-2. UPC Master
-3. UPC Worker
+1. install Docker on all PCs (すべての PC に Docker をインストールする)
+2. install Python3 and pip on all PCs (すべての PC に Python3 と pip をインストールする)
+3. download Nihon_Uni_UPC repository from github (github から Nihon_Uni_UPC リポジトリをダウンロード)
 ```
 ### Prerequisite
 ```

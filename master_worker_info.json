@@ -1,13 +1,13 @@
 {
 	"web_server":[
 		{
-			"IP_address":"172.28.235.18",
+			"IP_address":"192.168.0.140",
 			"port":3000
 		}
 	],
 	"master":[
 		{
-			"IP_address":"172.28.235.18",
+			"IP_address":"192.168.0.140",
 			"port":2000,
 			"number of worker":6,
 			"port_periodic":2002

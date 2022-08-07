@@ -9,4 +9,4 @@ sshfs root@$web_server_ip1:$PWD/UPC_Web_Server/status/waiting $PWD/UPC_Master/st
 sshfs root@$web_server_ip1:$PWD/UPC_Web_Server/status/running $PWD/UPC_Master/status/running
 sshfs root@$web_server_ip1:$PWD/UPC_Web_Server/status/finished $PWD/UPC_Master/status/finished
 
-docker run -it -v $PWD/UPC_Web_Server/download:/app/download -v $PWD/UPC_Web_Server/results:/app/results -v $PWD/UPC_Web_Server/status:/app/status -p 3000:3000 upc_web_server:latest
+docker run -it -v $PWD/UPC_Web_Server/download:/app/download -v $PWD/UPC_Web_Server/results:/app/results -v $PWD/UPC_Web_Server/status:/app/status -p 3000:3000 pollen5005/upc_web_server:latest

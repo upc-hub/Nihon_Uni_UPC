@@ -37,7 +37,10 @@
    (master_worker_infor.json を見つけて開き、編集します)
    - server and clients's IP address can be changed based on your environment
    - (サーバーとクライアントの IP アドレスは、環境に基づいて変更できます)
+   *I already changed same environment at Nihon University
+   *(は日本大学で同じ環境をすでに変えました)
 
+3. 
 ```
 ### Things to do at Client PCs (クライアント PC で行うこと)
 ```

@@ -115,3 +115,5 @@ Then, you can modify it for future usage.)
 ![interface](https://user-images.githubusercontent.com/79504426/183276945-c8a0a311-fccd-4b89-8da3-b49f89b8b4dd.png)
 ## UPC System setup at Nihon Uni. (日本大学でのUPCシステムのセットアップ)
 ![Nihon_Uni](https://user-images.githubusercontent.com/79504426/183277677-7c7d4165-55f7-4340-bc5f-b22cdef56827.png)
+- seven PCs can be used for setting up UPC system and one for the server and six PCs for worker PCs.
+(UPC システムのセットアップ用に 7 台の PC、サーバー用に 1 台、ワーカー PC 用に 6 台の PC を使用できます。)

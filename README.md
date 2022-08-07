@@ -1,8 +1,9 @@
 # Nihon_Uni_UPC
-# UPC System
+# To setup UPC system,
+# UPCシステムをインストールするには
 ```
-There are three main components in our UPC system:
-1. UPC Web Server
+1. install Docker on all PCs
+すべての PC に Docker をインストールする
 2. UPC Master
 3. UPC Worker
 ```

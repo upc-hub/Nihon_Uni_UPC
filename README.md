@@ -1,19 +1,26 @@
 # Nihon_Uni_UPC (multiple NS-Simulator jobs run a worker at the same time )
-#  (Usage explanation),
+#  Usage explanation(使用説明),
 ### 1. Things to do at Server PC (サーバーPCでできること)
 ```
 1. Download the updated project from GitHub.
+   (更新されたプロジェクトを GitHub からダウンロードします。)
 
 2. Open the master_operation_nssimulation.py under UPC_Master directory
+   (UPC_Master ディレクトリの下にある master_operation_nssimulation.py を開きます。)
 
 3. Then, edit the number of thread usage in each worker pc (e.g. pc6_limitt=1 to pc6_limitt=6), and save it. 
+   (次に、各ワーカー pc のスレッド使用数を編集 (例: pc6_limitt=1 から pc6_limitt=6) し、保存します。)
 
 4. Go to the UPC_Master directory, run the upc_master_v1.py, and choose '7' for processing NS-Simulation job
+   (UPC_Master ディレクトリに移動し、upc_master_v1.py を実行し、NS-Simulation ジョブを処理するために「7」を選択します。)
 
 5. For submitting the jobs, go to the jobs directory and there are two sample jobs.
+   (ジョブを送信するには、ジョブ ディレクトリに移動します。2 つのサンプル ジョブがあります。)
    Inside the job zip file, there is only input data file (e.g gunji_olsr-randam.cc)
+   (ジョブ zip ファイル内には、入力データ ファイル (例: gunji_olsr-randam.cc) のみがあります。)
    
 6. Multiple jobs can be created by changing the parameters inside that file and they can be processed in a worker at the same time.
+   (そのファイル内のパラメーターを変更することで複数のジョブを作成し、ワーカーで同時に処理することができます。)
 ```
 
 ### 2. Things to do at Client PCs (クライアント PC で行うこと)

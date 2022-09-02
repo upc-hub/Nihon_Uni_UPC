@@ -1,9 +1,19 @@
 # Nihon_Uni_UPC (multiple NS-Simulator jobs run a worker at the same time )
 #  (Usage explanation),
-### 1. Things I did for Update one
+### 1. Things to do at Server PC
 ```
+1. Download the updated project from GitHub.
 
-1. install Docker on all PCs 
+2. Open the master_operation_nssimulation.py under UPC_Master directory
+
+3. Then, edit the number of thread usage in each worker pc (e.g. pc6_limitt=1 to pc6_limitt=6), and save it. 
+
+4. Go to the UPC_Master directory, run the upc_master_v1.py, and choose '7' for processing NS-Simulation job
+
+5. For submitting the jobs, go to the jobs directory and there are two sample jobs.
+   Inside the job zip file, there is only input data file (e.g gunji_olsr-randam.cc)
+   
+6. Multiple jobs can be created by changing the parameters inside that file and they can be processed in a worker at the same time.
 
 ### 3. Things to do at Server PC (サーバーPCでできること)
 ```

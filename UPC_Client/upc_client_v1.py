@@ -13,7 +13,7 @@ import multiprocessing
 import argparse
 from EPLAS_processing import *
 from APLAS_processing import *
-from OpenFOAM_processing import *
+from nssimulation_processing import *
 from dynamic_client import *
 from static_client_prog import *
 from periodic_static_client_prog import *
@@ -67,7 +67,7 @@ class UPC_Client:
 		thread_information = master_worker_information[2]
 		podman_thread_information = master_worker_information[3]
 		worker_information_server = UPC_Client.worker_info(file)
-		print ('\nFor EPLAS, press>> 1 \nFor APLAS, press>> 2\nFor Dynamic scheduling, press>> 3\nFor Static scheduling, press>> 4\nFor Periodic Static scheduling, press>> 5\nFor OpenFOAM, press>> 6\n')
+		print ('\nFor EPLAS, press>> 1 \nFor APLAS, press>> 2\nFor Dynamic scheduling, press>> 3\nFor Static scheduling, press>> 4\nFor Periodic Static scheduling, press>> 5\nFor NS-Simulation, press>> 6\n')
 		number = input('Press desire number = ')
 		if str(number) == '1':
 			print ("EPLAS job will process.")
@@ -90,7 +90,7 @@ class UPC_Client:
 			thread_client_start1.start()
 			thread_client_start2.start()
 		elif str(number) == '6':
-			print ("OpenFOAM job will process.")
+			print ("NS-Simulation job will process.")
 			connect_master_openfoam(master_information[0], master_information[1], worker_information[0], podman_thread_information)
 		else:
 			print ("Please type the correct number!!!")

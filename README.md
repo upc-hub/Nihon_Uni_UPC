@@ -43,7 +43,7 @@
 - Docker is used to run any computational project (job) to various computing platform (worker PCs).
 (Docker は、さまざまなコンピューティング プラットフォーム (ワーカー PC) に対して任意の計算プロジェクト (ジョブ) を実行するために使用されます。)
 ![interface](https://user-images.githubusercontent.com/79504426/183276945-c8a0a311-fccd-4b89-8da3-b49f89b8b4dd.png)
-## UPC System setup at Nihon Uni. (日本大学でのUPCシステムのセットアップ)
+## multiple NS-Simulator jobs run a worker at the same time
 - seven PCs can be used for setting up UPC system and one for the server and six PCs for worker PCs.
 (UPC システムのセットアップ用に 7 台の PC、サーバー用に 1 台、ワーカー PC 用に 6 台の PC を使用できます。)
-![Nihon_Uni](https://user-images.githubusercontent.com/79504426/183277677-7c7d4165-55f7-4340-bc5f-b22cdef56827.png)
+![multiple](https://user-images.githubusercontent.com/79504426/188213236-785a6fd8-aad8-4639-9cf5-acec3b626711.png)

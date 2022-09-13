@@ -11,7 +11,7 @@ import shutil
 import multiprocessing
 import argparse
 
-def connect_master_openfoam(host, port, worker_name, IDs):
+def connect_master_nssimulation(host, port, worker_name, IDs):
 	global soc
 	print (IDs)
 	
@@ -28,7 +28,7 @@ def connect_master_openfoam(host, port, worker_name, IDs):
 	if master_response=="wait":
 		print ("There is no job at master.")
 		time.sleep(5)
-		connect_master_openfoam(host, port, worker_name, IDs)
+		connect_master_nssimulation(host, port, worker_name, IDs)
 	else:
 		print ("Please execute this job.", master_response)
 		receive_job(host, port, master_response, soc, worker_name, IDs)
@@ -73,7 +73,7 @@ def one(host, port, soc, worker_name, IDs):
 	thread1_proce.start()
 	returna = thread1_proce.join()
 	if returna==None:
-		connect_master_openfoam(host, port, worker_name, IDs)
+		connect_master_nssimulation(host, port, worker_name, IDs)
 	else:
 		print ("No need to wait other threads finishing.")
 
@@ -86,7 +86,7 @@ def two(host, port, soc, worker_name, IDs):
 	returnb = thread2_proce.join()
 	if returna==None and returnb==None:
 		find_maximum()
-		connect_master_openfoam(host, port, worker_name, IDs)
+		connect_master_nssimulation(host, port, worker_name, IDs)
 	else:
 		print ("Wait other threads finishing.")
 
@@ -102,7 +102,7 @@ def three(host, port, soc, worker_name, IDs):
 	returnc = thread3_proce.join()
 	if returna==None and returnb==None and returnc==None:
 		find_maximum()
-		connect_master_openfoam(host, port, worker_name, IDs)
+		connect_master_nssimulation(host, port, worker_name, IDs)
 	else:
 		print ("Wait other threads finishing.")
 
@@ -121,7 +121,7 @@ def four(host, port, soc, worker_name, IDs):
 	returnd = thread4_proce.join()
 	if returna==None and returnb==None and returnc==None and returnd==None:
 		find_maximum()
-		connect_master_openfoam(host, port, worker_name, IDs)
+		connect_master_nssimulation(host, port, worker_name, IDs)
 	else:
 		print ("Wait other threads finishing.")
 
@@ -143,7 +143,7 @@ def five(host, port, soc, worker_name, IDs):
 	returne = thread5_proce.join()
 	if returna==None and returnb==None and returnc==None and returnd==None and returne==None:
 		find_maximum()
-		connect_master_openfoam(host, port, worker_name, IDs)
+		connect_master_nssimulation(host, port, worker_name, IDs)
 	else:
 		print ("Wait other threads finishing.")
 
@@ -168,7 +168,7 @@ def six(host, port, soc, worker_name, IDs):
 	returnf = thread6_proce.join()
 	if returna==None and returnb==None and returnc==None and returnd==None and returne==None and returnf==None:
 		find_maximum()
-		connect_master_openfoam(host, port, worker_name, IDs)
+		connect_master_nssimulation(host, port, worker_name, IDs)
 	else:
 		print ("Wait other threads finishing.")
 
@@ -196,7 +196,7 @@ def seven(host, port, soc, worker_name, IDs):
 	returng = thread7_proce.join()
 	if returna==None and returnb==None and returnc==None and returnd==None and returne==None and returnf==None and returng==None:
 		find_maximum()
-		connect_master_openfoam(host, port, worker_name, IDs)
+		connect_master_nssimulation(host, port, worker_name, IDs)
 	else:
 		print ("Wait other threads finishing.")
 
@@ -227,7 +227,7 @@ def eight(host, port, soc, worker_name, IDs):
 	returnh = thread8_proce.join()
 	if returna==None and returnb==None and returnc==None and returnd==None and returne==None and returnf==None and returng==None and returnh==None:
 		find_maximum()
-		connect_master_openfoam(host, port, worker_name, IDs)
+		connect_master_nssimulation(host, port, worker_name, IDs)
 	else:
 		print ("Wait other threads finishing.")
 
@@ -261,7 +261,7 @@ def nine(host, port, soc, worker_name, IDs):
 	returni = thread9_proce.join()
 	if returna==None and returnb==None and returnc==None and returnd==None and returne==None and returnf==None and returng==None and returnh==None and returni==None:
 		find_maximum()
-		connect_master_openfoam(host, port, worker_name, IDs)
+		connect_master_nssimulation(host, port, worker_name, IDs)
 	else:
 		print ("Wait other threads finishing.")
 
@@ -298,7 +298,7 @@ def ten(host, port, soc, worker_name, IDs):
 	returnj = thread10_proce.join()
 	if returna==None and returnb==None and returnc==None and returnd==None and returne==None and returnf==None and returng==None and returnh==None and returni==None and returnj==None:
 		find_maximum()
-		connect_master_openfoam(host, port, worker_name, IDs)
+		connect_master_nssimulation(host, port, worker_name, IDs)
 	else:
 		print ("Wait other threads finishing.")
 
@@ -409,7 +409,7 @@ def job_execute(data, portt, start1, container_name, soc, host, port, worker_nam
 	 	return real_execution_time
 	 else:
 	 	print ("This is a container.")
-	 	connect_master_openfoam(host, port, worker_name, IDs)
+	 	connect_master_nssimulation(host, port, worker_name, IDs)
 
 def openfoam_execute(name_of_job,  directory, container_name):
 	print (name_of_job)
@@ -422,15 +422,19 @@ def openfoam_execute(name_of_job,  directory, container_name):
 	open_work_directory = directory+receive_job_working_dir
 	subprocess.call(['chmod', '777', '-R', open_work_directory])
 	os.chdir(open_work_directory)
-	openfoam_start = time_second()
+	ns_start = time_second()
 	print ("*************")
 	print (container_name)
 	print ("*************")
 	#subprocess.call(['podman', 'container', 'run', '-ti', '--rm', '-v', './:/data', '-w', '/data', 'myopenfoam:'+container_name, './Allrun'])
-	subprocess.call(['docker', 'run', '-v', directory+'aa:/root/repos/ns-3-allinone/ns-3.30/scratch', 'pollen5005/nssimulator:'+container_name])
-	openfoam_end = time_second()
+	#f = open('/home/pc4/bb.txt', "w") # this creates the file
+	#cmd=['docker', 'run', '-v', directory+'aa:/root/repos/ns-3-allinone/ns-3.30/scratch', 'pollen5005/nssimulator:'+container_name]
+	#subprocess.run(cmd, stdout=f) # this sends it to f
+	subprocess.call(['bash', '/home/pc4/Desktop/upc_client/nssimulation_run.sh', directory, container_name])
+	#subprocess.call(['docker', 'logs', '-f', 'pollen5005/nssimulator:'+container_name, '&> '+directory+'aa/myFile.log &'])
+	ns_end = time_second()
 	direc = open_work_directory+"/postProcessing/probe(T)/0/T"
-	openfoam_running_time = str(int(openfoam_end)-int(openfoam_start))
+	ns_running_time = str(int(ns_end)-int(ns_start))
 	os.chdir('..')
 	os.chdir('..')
 	#subprocess.call(['pwd'])
@@ -438,7 +442,7 @@ def openfoam_execute(name_of_job,  directory, container_name):
 	#subprocess.call(['chmod', '777', '-R', directory])
 	#subprocess.call(['rm', '-r', open_work_directory])
 	time_file = directory+'time.csv'
-	record_csv(time_file, openfoam_running_time,name_of_job, '---', '---')
+	record_csv(time_file, ns_running_time,name_of_job, '---', '---')
 
 def extract_aplas_manifest(file1):
 	manifest = open(file1, 'rb')
